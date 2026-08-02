@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let idiomaActual = localStorage.getItem("idioma") || "es";
   let productos = [];
   let sugerencias = [];
   let pausado = false;
@@ -9,34 +8,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const list = document.getElementById("product-list");
   const cats = document.getElementById("category-buttons");
   const searchInput = document.getElementById("search-input");
+  const btnMic = document.getElementById("btn-mic");
 
-  function obtenerSaludoAutomatico() {
-    const hora = new Date().getHours();
-    if (hora >= 6 && hora < 12) return "¡Buenos días!";
-    if (hora >= 12 && hora < 20) return "¡Buenas tardes!";
-    return "¡Buenas noches!";
-  }
-
-  // 1. Cargar productos según idioma seleccionado
+  // 1. Cargar productos desde productos.json
   async function cargarProductos() {
-    let archivo = "productos.json";
-    if (idiomaActual === "en") archivo = "productos-en.json";
-    if (idiomaActual === "pt") archivo = "productos-port.json";
-
     try {
-      const res = await fetch(`${archivo}?t=${Date.now()}`);
-      if (!res.ok) throw new Error("No se pudo cargar " + archivo);
+      const res = await fetch(`productos.json?t=${Date.now()}`);
+      if (!res.ok) throw new Error("No se pudo cargar productos.json");
       productos = await res.json();
       if (!Array.isArray(productos)) productos = [];
     } catch (e) {
-      console.warn("Fallback a productos.json...", e);
-      try {
-        const res2 = await fetch(`productos.json?t=${Date.now()}`);
-        productos = await res2.json();
-        if (!Array.isArray(productos)) productos = [];
-      } catch (err) {
-        productos = [];
-      }
+      console.warn("Fallo carga de productos.json:", e);
+      productos = [];
     }
 
     renderizarCategorias();
@@ -49,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!cats) return;
     cats.innerHTML = "";
 
-    const categoriasUnicas = ["Todos", ...new Set(productos.map(p => p.categoria || p.category || "General").filter(Boolean))];
+    const categoriasUnicas = ["Todos", ...new Set(productos.map(p => p.categoria || "General").filter(Boolean))];
 
     categoriasUnicas.forEach(cat => {
       const btn = document.createElement("button");
@@ -65,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 3. Renderizar cuadrícula de productos
+  // 3. Renderizar cuadrícula de electrodomésticos
   function renderizarProductos() {
     if (!list) return;
     list.innerHTML = "";
@@ -73,9 +56,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
 
     const filtrados = productos.filter(p => {
-      const nombre = (p.nombre || p.name || p.nome || "").toLowerCase();
-      const desc = (p.descripcion || p.description || p.descricao || "").toLowerCase();
-      const cat = p.categoria || p.category || "General";
+      const nombre = (p.nombre || "").toLowerCase();
+      const desc = (p.descripcion || "").toLowerCase();
+      const cat = p.categoria || "General";
 
       const coincideCategoria = (categoriaActual === "Todos" || cat === categoriaActual);
       const coincideBusqueda = !query || nombre.includes(query) || desc.includes(query);
@@ -84,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     if (filtrados.length === 0) {
-      list.innerHTML = `<div style="grid-column: 1/-1; padding: 40px; color: #777;">No hay productos disponibles en esta categoría.</div>`;
+      list.innerHTML = `<div style="grid-column: 1/-1; padding: 50px; color: #94a3b8; font-size: 16px;">No se encontraron electrodomésticos que coincidan con la búsqueda.</div>`;
       return;
     }
 
@@ -92,32 +75,34 @@ document.addEventListener("DOMContentLoaded", () => {
       const item = document.createElement("div");
       item.className = "item";
 
-      const nombre = p.nombre || p.name || p.nome || "Sin nombre";
-      const desc = p.descripcion || p.description || p.descricao || "";
-      const precio = p.precio || p.price || p.preco || "0";
-      const img = p.imagen || p.image || p.imagem || "https://via.placeholder.com/200?text=Sin+Foto";
+      const nombre = p.nombre || "Electrodoméstico";
+      const desc = p.descripcion || "";
+      const precio = p.precio || "0";
+      const img = p.imagen || "https://via.placeholder.com/300x200?text=G%C3%A9nesis+Electro";
 
       item.innerHTML = `
-        <img src="${img}" alt="${nombre}" onerror="this.src='https://via.placeholder.com/200?text=Sin+Foto'">
+        <img src="${img}" alt="${nombre}" onerror="this.src='https://via.placeholder.com/300x200?text=G%C3%A9nesis+Electro'">
         <div class="item-info">
-          <h3 style="margin: 0 0 6px 0; font-size: 16px; color:#45270a;">${nombre}</h3>
-          <p style="margin: 0 0 8px 0; font-size: 13px; color: #666; flex:1;">${desc}</p>
-          <div style="font-weight: bold; color: #806250; font-size: 18px;">$${precio}</div>
+          <div>
+            <h3 class="item-title">${nombre}</h3>
+            <p class="item-desc">${desc}</p>
+          </div>
+          <div class="item-price">$${precio}</div>
         </div>
       `;
       list.appendChild(item);
     });
   }
 
-  // 4. Teleprompter de Sugerencias del Mozo Digital
+  // 4. Teleprompter de Anuncios y Ofertas
   function iniciarTeleprompter() {
     if (!tele) return;
 
-    const saludo = obtenerSaludoAutomatico();
     sugerencias = [
-      `${saludo} Bienvenidos a nuestra Cartilla Digital.`,
-      `👨‍🍳 Consultá a nuestro mozo por los platos recomendados.`,
-      ...productos.slice(0, 5).map(p => `🌟 Recomendación: ${p.nombre || p.name || p.nome} - $${p.precio || p.price || p.preco}`)
+      `⚡ ¡Bienvenidos a Génesis Electrodomésticos!`,
+      `🏠 Encontrá las mejores promociones y cuotas para equipar tu hogar.`,
+      `🚚 Envíos y entregas a domicilio.`,
+      ...productos.slice(0, 5).map(p => `🌟 Destacado: ${p.nombre} - $${p.precio}`)
     ];
 
     const separador = "     ✦     ";
@@ -131,20 +116,58 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   }
 
-  // Buscador
+  // 5. BUSCADOR POR VOZ (SpeechRecognition Web API)
+  function iniciarBuscadorPorVoz() {
+    if (!btnMic || !searchInput) return;
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    if (!SpeechRecognition) {
+      console.warn("Reconocimiento de voz no disponible en este navegador");
+      btnMic.style.display = "none";
+      return;
+    }
+
+    const recognition = new SpeechRecognition();
+    recognition.lang = "es-AR";
+    recognition.continuous = false;
+    recognition.interimResults = false;
+
+    btnMic.onclick = () => {
+      try {
+        recognition.start();
+        btnMic.classList.add("escuchando");
+        btnMic.title = "Escuchando... hablá ahora 🎙️";
+      } catch (e) {
+        console.warn("Reconocimiento de voz ya en ejecución", e);
+      }
+    };
+
+    recognition.onresult = (event) => {
+      const texto = event.results[0][0].transcript;
+      searchInput.value = texto;
+      btnMic.classList.remove("escuchando");
+      btnMic.title = "Hacé clic para buscar por voz 🎙️";
+      renderizarProductos();
+    };
+
+    recognition.onerror = (e) => {
+      console.warn("Error en voz:", e.error);
+      btnMic.classList.remove("escuchando");
+      btnMic.title = "Hacé clic para buscar por voz 🎙️";
+    };
+
+    recognition.onend = () => {
+      btnMic.classList.remove("escuchando");
+      btnMic.title = "Hacé clic para buscar por voz 🎙️";
+    };
+  }
+
+  // Evento de escritura manual en buscador
   if (searchInput) {
     searchInput.addEventListener("input", renderizarProductos);
   }
 
-  // Cambiar idioma
-  window.cambiarIdioma = (lang) => {
-    idiomaActual = lang;
-    localStorage.setItem("idioma", lang);
-    document.querySelectorAll(".lang-btn").forEach(b => b.classList.remove("active"));
-    const activeBtn = document.getElementById(`btn-${lang}`);
-    if (activeBtn) activeBtn.classList.add("active");
-    cargarProductos();
-  };
-
+  iniciarBuscadorPorVoz();
   cargarProductos();
 });
