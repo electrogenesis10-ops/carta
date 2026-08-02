@@ -6,5 +6,13 @@
     "imagen": "img/1785652849948_arrocpoolo_jpg.jpg",
     "categoria": "cocina",
     "id": "prod0001"
+  },
+  {
+    "nombre": "baño",
+    "descripcion": "ñ.´.´.´.´dcskncjsdbnsjkhkkb",
+    "precio": "30000",
+    "imagen": "img/1785652982694_supreg_png.png",
+    "categoria": "baño",
+    "id": "prod0002"
   }
 ]
