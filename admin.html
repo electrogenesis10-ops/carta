@@ -56,7 +56,7 @@
     /* Zona de arrastrar fotos */
     .dropZone {
       border: 2px dashed #806250;
-      padding: 15px;
+      padding: 20px;
       text-align: center;
       border-radius: 8px;
       cursor: pointer;
@@ -113,9 +113,9 @@
         <textarea id="descripcion" rows="3"></textarea>
       </div>
 
-      <!-- CARGA DE IMAGEN CON DRAG & DROP -->
+      <!-- CARGA DE IMAGEN EXCLUSIVA CON DRAG & DROP -->
       <div style="grid-column:1/3">
-        <label><b>Imagen del Producto</b> (Arrastrá tu foto o seleccionála desde tu PC)</label>
+        <label><b>Imagen del Producto</b></label>
         
         <input type="file" id="imagenFile" accept="image/*" style="display:none" onchange="handleFileSelect(event)">
         <div id="dropZone" class="dropZone" 
@@ -127,7 +127,8 @@
           <div style="font-size:12px;color:#666;margin-top:4px">Se subirá automáticamente a la carpeta <code>img/</code> en GitHub</div>
         </div>
 
-        <input id="imagen" type="text" placeholder="Ruta o URL (ej: img/foto.jpg)" oninput="previewImage()">
+        <!-- Campo oculto para guardar la ruta internamente -->
+        <input type="hidden" id="imagen">
         <img id="preview" class="previewImg" style="display:none">
       </div>
 
@@ -269,7 +270,7 @@ async function procesarYSubirImagen(file) {
     // Subir archivo base64 a GitHub
     await githubPutFile(pathGitHub, base64Data, `Subida de imagen ${pathGitHub} desde Admin`, sha, true);
 
-    // Colocar ruta en el input
+    // Colocar ruta en el campo oculto
     document.getElementById("imagen").value = pathGitHub;
     previewImage();
 
