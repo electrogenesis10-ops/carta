@@ -1,18 +1,18 @@
 [
   {
-    "nombre": "COCINA",
-    "descripcion": "ñ.´.´.´.´dcskncjsdbnsj",
-    "precio": "20000",
-    "imagen": "img/1785652849948_arrocpoolo_jpg.jpg",
-    "categoria": "cocina",
-    "id": "prod0001"
+    "id": "prod0001",
+    "nombre": "Café Doble Espresso",
+    "precio": "2500",
+    "descripcion": "Café espresso doble de granos seleccionados de especialidad",
+    "categoria": "Cafetería☕️",
+    "imagen": "img/cafe.jpg"
   },
   {
-    "nombre": "baño",
-    "descripcion": "ñ.´.´.´.´dcskncjsdbnsjkhkkb",
-    "precio": "30000",
-    "imagen": "img/1785652982694_supreg_png.png",
-    "categoria": "baño",
-    "id": "prod0002"
+    "id": "prod0002",
+    "nombre": "Medialuna de Manteca",
+    "precio": "1200",
+    "descripcion": "Medialuna artesanal hojaldrada recién horneada",
+    "categoria": "Cafetería☕️",
+    "imagen": "img/medialuna.jpg"
   }
 ]
