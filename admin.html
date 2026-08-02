@@ -763,9 +763,11 @@
                 const base64Full = await fileToBase64(file);
                 const base64Data = base64Full.split(',')[1];
 
-                const ext = file.name.split('.').pop().toLowerCase() || 'jpg';
-                const nombreLimpio = file.name.replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
-                const pathGitHub = `img/${Date.now()}_${nombreLimpio}.${ext}`;
+    // Formatear extensión y nombre sin duplicar extensión (.png)
+    const parts = file.name.split('.');
+    const ext = parts.length > 1 ? parts.pop().toLowerCase() : 'jpg';
+    const baseName = parts.join('_').replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
+    const pathGitHub = `img/${Date.now()}_${baseName}.${ext}`;
 
                 await githubPutFile(pathGitHub, base64Data, `Subida de foto ${pathGitHub} desde Admin`, true);
 
