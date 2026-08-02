@@ -1,8 +1,8 @@
 const host = window.location.hostname;
 const pathParts = window.location.pathname.split("/");
 
-const USER = host.split(".")[0];   // usuario
-const REPO = pathParts[1];         // nombre del repo
+const USER =electrogenesis10-ops;   // usuario
+const REPO = carta;         // nombre del repo
 const FILE_PATH = "sugerencias.json";
 const BRANCH = "main";
 
