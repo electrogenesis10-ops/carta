@@ -387,7 +387,9 @@
                             automáticamente a la carpeta <code>img/</code> en GitHub</div>
                     </div>
                     <input type="hidden" id="imagen">
-                    <img id="preview" class="previewImg" style="display:none">
+                    <div style="display: flex; justify-content: center; width: 100%;">
+                        <img id="preview" class="previewImg" style="display:none">
+                    </div>
                 </div>
 
                 <div>
@@ -518,10 +520,24 @@
             if (e.target.files && e.target.files[0]) procesarYSubirImagen(e.target.files[0]);
         }
 
+        function getImgUrl(path) {
+            if (!path) return '';
+            if (path.startsWith('http://') || path.startsWith('https://') || path.startsWith('data:') || path.startsWith('blob:')) {
+                return path;
+            }
+            return `https://raw.githubusercontent.com/${USERNAME}/${REPO}/${BRANCH}/${path}`;
+        }
+
         async function procesarYSubirImagen(file) {
             if (!file.type.startsWith("image/")) { showToast("Seleccioná un archivo de imagen válido", "err"); return; }
             const token = getToken();
             if (!token) { showToast("Primero ingresá y guardá tu Token de GitHub", "err"); return; }
+
+            // Mostrar preview local inmediato mediante un URL de objeto
+            const tempUrl = URL.createObjectURL(file);
+            const img = document.getElementById('preview');
+            img.src = tempUrl;
+            img.style.display = 'block';
 
             mostrarLoading();
             const dropText = document.getElementById("dropText");
@@ -539,9 +555,11 @@
                 await githubPutFile(pathGitHub, base64Data, `Subida de foto ${pathGitHub} desde Admin`, true);
 
                 document.getElementById("imagen").value = pathGitHub;
-                previewImage();
                 showToast("¡Foto subida con éxito!", "ok");
             } catch (err) {
+                // Si falla la subida, ocultamos el preview temporal
+                img.style.display = 'none';
+                img.src = '';
                 showToast("Error al subir foto: " + (err.message || err), "err");
             } finally {
                 ocultarLoading();
@@ -591,7 +609,7 @@
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
                     <td style="text-align:center">
-                        <img src="${p.imagen || ''}" class="mini" onerror="this.src='https://via.placeholder.com/60?text=Foto'">
+                        <img src="${getImgUrl(p.imagen)}" class="mini" onerror="this.src='https://via.placeholder.com/60?text=Foto'">
                     </td>
                     <td><input type="text" value="${(p.nombre || '').replace(/"/g, '&quot;')}" oninput="updateLocal('${p.id}', 'nombre', this.value)"></td>
                     <td><textarea oninput="updateLocal('${p.id}', 'descripcion', this.value)">${p.descripcion || ''}</textarea></td>
@@ -636,7 +654,13 @@
             const img = document.getElementById('preview');
             const url = document.getElementById('imagen').value.trim();
             if (!url) { img.style.display = 'none'; return; }
-            img.src = url;
+            
+            // Si ya estamos mostrando un blob local recién subido, no lo sobrescribimos con la ruta de github
+            if (img.src.startsWith('blob:') && img.style.display === 'block' && url.startsWith('img/')) {
+                return;
+            }
+            
+            img.src = getImgUrl(url);
             img.onload = () => img.style.display = 'block';
             img.onerror = () => img.style.display = 'none';
         }
