@@ -140,6 +140,7 @@
         button.secondary {
             background: #059669;
         }
+
         button.secondary:hover {
             background: #10b981;
         }
@@ -147,6 +148,7 @@
         button.danger {
             background: #dc2626;
         }
+
         button.danger:hover {
             background: #ef4444;
         }
@@ -173,7 +175,9 @@
             margin-top: 4px;
             transition: all 0.2s ease;
         }
-        .dropZone:hover, .dropZone.dragover {
+
+        .dropZone:hover,
+        .dropZone.dragover {
             background: rgba(56, 189, 248, 0.15);
             border-color: #fff;
         }
@@ -188,7 +192,8 @@
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
-        th, td {
+        th,
+        td {
             padding: 12px 14px;
             vertical-align: middle;
             text-align: left;
@@ -208,7 +213,8 @@
             color: #f8fafc;
         }
 
-        td input[type="text"], td textarea {
+        td input[type="text"],
+        td textarea {
             border: 1px solid transparent;
             background: transparent;
             width: 100%;
@@ -219,7 +225,8 @@
             border-radius: 6px;
         }
 
-        td input[type="text"]:focus, td textarea:focus {
+        td input[type="text"]:focus,
+        td textarea:focus {
             background: rgba(15, 23, 42, 0.9);
             border-color: var(--secondary-color);
         }
@@ -237,8 +244,15 @@
             margin-bottom: 25px;
         }
 
-        .small { font-size: 13px; color: #94a3b8; }
-        .rowActions { display: flex; gap: 6px; }
+        .small {
+            font-size: 13px;
+            color: #94a3b8;
+        }
+
+        .rowActions {
+            display: flex;
+            gap: 6px;
+        }
 
         .previewImg {
             max-width: 150px;
@@ -252,27 +266,43 @@
         /* TOAST NOTIFICATIONS */
         .toast {
             position: fixed;
-            top: 24px; right: 24px;
+            top: 24px;
+            right: 24px;
             z-index: 2000;
             padding: 14px 20px;
             border-radius: 12px;
             color: white;
             font-weight: 600;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             opacity: 0;
             transform: translateY(-10px);
             transition: all .25s ease;
             max-width: 360px;
         }
-        .toast.show { opacity: 1; transform: translateY(0); }
-        .toast.ok { background: #059669; }
-        .toast.info { background: #2563eb; }
-        .toast.err { background: #dc2626; }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .toast.ok {
+            background: #059669;
+        }
+
+        .toast.info {
+            background: #2563eb;
+        }
+
+        .toast.err {
+            background: #dc2626;
+        }
 
         #loadingOverlay {
             position: fixed;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             background: rgba(15, 23, 42, 0.85);
             backdrop-filter: blur(8px);
             color: #fff;
@@ -294,11 +324,15 @@
         <div class="topRow">
             <div class="git-config">
                 <div class="git-title">📍 Configuración de GitHub</div>
-                <div style="margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;">
+                <div
+                    style="margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;">
                     <div><span class="small">Repositorio actual:</span> <b id="repoDisplay">cargando...</b></div>
-                    <button id="btnLockAdmin" onclick="toggleAdminLock()" style="padding: 4px 10px; font-size: 12px; background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 6px;">🔒 Acceso Propietario</button>
+                    <button id="btnLockAdmin" onclick="toggleAdminLock()"
+                        style="padding: 4px 10px; font-size: 12px; background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 6px;">🔒
+                        Acceso Propietario</button>
                 </div>
-                <div class="token-group" id="tokenControlGroup" style="display: none; flex-wrap: wrap; gap: 8px; align-items: center;">
+                <div class="token-group" id="tokenControlGroup"
+                    style="display: none; flex-wrap: wrap; gap: 8px; align-items: center;">
                     <label style="font-size:14px; font-weight:600;">GitHub Token:</label>
                     <input type="password" id="token" placeholder="Pegar Token" style="max-width:220px">
                     <button onclick="saveToken()">Guardar</button>
@@ -320,10 +354,12 @@
         <!-- FORMULARIO DE ALTA / EDICIÓN -->
         <form id="form">
             <input type="hidden" id="editId">
-            <h3 style="margin-top:0; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom:8px;" id="formTitle">Agregar Nuevo Electrodoméstico</h3>
+            <h3 style="margin-top:0; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom:8px;"
+                id="formTitle">Agregar Nuevo Electrodoméstico</h3>
             <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:15px">
                 <div>
-                    <label style="font-size:13px; font-weight:600; display:block; margin-bottom:5px;">Nombre del Producto</label>
+                    <label style="font-size:13px; font-weight:600; display:block; margin-bottom:5px;">Nombre del
+                        Producto</label>
                     <input id="nombre" type="text" style="width:100%;" placeholder="Ej: Smart TV 55 pulgadas">
                 </div>
                 <div>
@@ -331,21 +367,24 @@
                     <input id="precio" type="text" placeholder="Solo números" style="width:100%;">
                 </div>
                 <div style="grid-column: 1 / -1">
-                    <label style="font-size:13px; font-weight:600; display:block; margin-bottom:5px;">Descripción y Características</label>
-                    <textarea id="descripcion" rows="2" style="width:100%;" placeholder="Ej: 4K UHD, Wi-Fi, 3 entradas HDMI"></textarea>
+                    <label style="font-size:13px; font-weight:600; display:block; margin-bottom:5px;">Descripción y
+                        Características</label>
+                    <textarea id="descripcion" rows="2" style="width:100%;"
+                        placeholder="Ej: 4K UHD, Wi-Fi, 3 entradas HDMI"></textarea>
                 </div>
-                
+
                 <!-- CARGA DE IMAGEN CON DRAG & DROP -->
                 <div style="grid-column: 1 / -1">
-                    <label style="font-size:13px; font-weight:600; display:block; margin-bottom:5px;">Foto del Producto</label>
-                    <input type="file" id="imagenFile" accept="image/*" style="display:none" onchange="handleFileSelect(event)">
-                    <div id="dropZone" class="dropZone" 
-                         onclick="document.getElementById('imagenFile').click()"
-                         ondragover="handleDragOver(event)" 
-                         ondragleave="handleDragLeave(event)" 
-                         ondrop="handleDrop(event)">
+                    <label style="font-size:13px; font-weight:600; display:block; margin-bottom:5px;">Foto del
+                        Producto</label>
+                    <input type="file" id="imagenFile" accept="image/*" style="display:none"
+                        onchange="handleFileSelect(event)">
+                    <div id="dropZone" class="dropZone" onclick="document.getElementById('imagenFile').click()"
+                        ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)"
+                        ondrop="handleDrop(event)">
                         📸 <b id="dropText">Hacé clic aquí o arrastrá tu foto desde tu computadora</b>
-                        <div style="font-size:12px; color:var(--secondary-color); margin-top:4px">Se subirá automáticamente a la carpeta <code>img/</code> en GitHub</div>
+                        <div style="font-size:12px; color:var(--secondary-color); margin-top:4px">Se subirá
+                            automáticamente a la carpeta <code>img/</code> en GitHub</div>
                     </div>
                     <input type="hidden" id="imagen">
                     <img id="preview" class="previewImg" style="display:none">
@@ -353,7 +392,8 @@
 
                 <div>
                     <label style="font-size:13px; font-weight:600; display:block; margin-bottom:5px;">Categoría</label>
-                    <input id="categoria" type="text" placeholder="Ej: Televisores, Heladeras, Climatización..." style="width:100%;">
+                    <input id="categoria" type="text" placeholder="Ej: Televisores, Heladeras, Climatización..."
+                        style="width:100%;">
                 </div>
             </div>
 
@@ -406,7 +446,7 @@
 
         function mostrarLoading() { document.getElementById("loadingOverlay").style.display = "flex"; }
         function ocultarLoading() { document.getElementById("loadingOverlay").style.display = "none"; }
-        
+
         function showToast(msg, variant = 'ok') {
             const div = document.createElement('div');
             div.className = `toast ${variant}`;
@@ -553,10 +593,10 @@
                     <td style="text-align:center">
                         <img src="${p.imagen || ''}" class="mini" onerror="this.src='https://via.placeholder.com/60?text=Foto'">
                     </td>
-                    <td><input type="text" value="${(p.nombre||'').replace(/"/g, '&quot;')}" oninput="updateLocal('${p.id}', 'nombre', this.value)"></td>
-                    <td><textarea oninput="updateLocal('${p.id}', 'descripcion', this.value)">${p.descripcion||''}</textarea></td>
-                    <td><input type="text" value="${(p.categoria||'').replace(/"/g, '&quot;')}" oninput="updateLocal('${p.id}', 'categoria', this.value)"></td>
-                    <td><input type="text" value="${p.precio||'0'}" style="font-weight:bold; color:var(--secondary-color);" oninput="updateLocal('${p.id}', 'precio', this.value)"></td>
+                    <td><input type="text" value="${(p.nombre || '').replace(/"/g, '&quot;')}" oninput="updateLocal('${p.id}', 'nombre', this.value)"></td>
+                    <td><textarea oninput="updateLocal('${p.id}', 'descripcion', this.value)">${p.descripcion || ''}</textarea></td>
+                    <td><input type="text" value="${(p.categoria || '').replace(/"/g, '&quot;')}" oninput="updateLocal('${p.id}', 'categoria', this.value)"></td>
+                    <td><input type="text" value="${p.precio || '0'}" style="font-weight:bold; color:var(--secondary-color);" oninput="updateLocal('${p.id}', 'precio', this.value)"></td>
                     <td class="rowActions">
                         <button onclick="loadIntoFormById('${p.id}')" style="background:var(--secondary-color);">Editar</button>
                         <button class="danger" onclick="eliminarProductoPorId('${p.id}')">Borrar</button>
@@ -648,7 +688,7 @@
                     headers: { Authorization: `token ${token}` }
                 });
                 if (resInfo.ok) { const data = await resInfo.json(); sha = data.sha; }
-            } catch (e) {}
+            } catch (e) { }
 
             const base64Content = isBase64 ? contentString : btoa(unescape(encodeURIComponent(contentString)));
             const body = { message, content: base64Content, branch: BRANCH, sha };
@@ -706,4 +746,5 @@
         });
     </script>
 </body>
+
 </html>
