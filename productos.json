@@ -1,18 +1,10 @@
 [
   {
     "id": "prod0001",
-    "nombre": "Café Doble Espresso",
-    "descripcion": "Café espresso doble de granos seleccionados de especialidad",
-    "precio": "2500",
-    "imagen": "img/1785698891757_berenje.jpg",
+    "nombre": "COCINA",
+    "descripcion": "cuatro hornallas",
+    "precio": "20000",
+    "imagen": "img/1785652849948_arrocpoolo_jpg.jpg",
     "categoria": "cocina"
-  },
-  {
-    "id": "prod0002",
-    "nombre": "Medialuna de Manteca",
-    "descripcion": "Medialuna artesanal hojaldrada recién horneada",
-    "precio": "1200",
-    "imagen": "img/medialuna.jpg",
-    "categoria": "Cafetería☕️"
   }
 ]
