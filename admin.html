@@ -163,6 +163,19 @@
             box-shadow: var(--shadow-md);
         }
 
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .form-grid {
+                grid-template-columns: 1.8fr 1.2fr;
+                gap: 30px;
+            }
+        }
+
         /* Zona de arrastrar fotos */
         .dropZone {
             border: 2px dashed var(--secondary-color);
@@ -356,7 +369,7 @@
             <input type="hidden" id="editId">
             <h3 style="margin-top:0; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom:8px;"
                 id="formTitle">Agregar Nuevo Electrodoméstico</h3>
-            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:15px">
+            <div class="form-grid">
                 <div>
                     <label style="font-size:13px; font-weight:600; display:block; margin-bottom:5px;">Nombre del
                         Producto</label>
