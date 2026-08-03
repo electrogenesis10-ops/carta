@@ -1,10 +1,42 @@
 [
   {
-    "nome": "COCINA",
-    "descricao": "ñ.´.´.´.´dcskncjsdbnsj",
+    "id": "prod0001",
+    "nome": "FOGÃO",
+    "descricao": "quatro bocas",
     "preco": "20000",
     "imagem": "img/1785652849948_arrocpoolo_jpg.jpg",
-    "categoria": "cocina",
-    "id": "prod0001"
+    "categoria": "cozinha"
+  },
+  {
+    "id": "prod0002",
+    "nome": "LAVA E SECA PHILCO 11 KG",
+    "descricao": "💥 LAVA E SECA PHILCO 11 KG* 🔮 💸 12 parcelas de $175.000",
+    "preco": "1217500",
+    "imagem": "img/lavasecarropas_philco.jpeg",
+    "categoria": "Lavanderia"
+  },
+  {
+    "id": "prod0003",
+    "nome": "CAMA BOX CASAL COM TRAVESSEIROS",
+    "descricao": "🛏️ CAMA BOX CASAL COM TRAVESSEIROS 😴 Descanso perfeito",
+    "preco": "380000",
+    "imagem": "img/somier_2plazas.jpeg",
+    "categoria": "Quarto"
+  },
+  {
+    "id": "prod0004",
+    "nome": "BICICLETA FIRE BIRD",
+    "descricao": "🚴 BICICLETA FIRE BIRD 🚀 Entrega imediata e parcelas fixas",
+    "preco": "250000",
+    "imagem": "img/bicicleta_firebird.jpeg",
+    "categoria": "Esportes"
+  },
+  {
+    "id": "prod0005",
+    "nome": "SMART TV RCA 75\"",
+    "descricao": "📺 SMART TV RCA 75\" 4K UHD 🎬 Google TV e Chromecast integrado",
+    "preco": "1350000",
+    "imagem": "img/smart_rca_75.jpeg",
+    "categoria": "Tecnologia"
   }
 ]

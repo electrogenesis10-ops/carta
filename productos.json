@@ -6,5 +6,37 @@
     "precio": "20000",
     "imagen": "img/1785652849948_arrocpoolo_jpg.jpg",
     "categoria": "cocina"
+  },
+  {
+    "id": "prod0002",
+    "nombre": "LAVASECARROPAS PHILCO 11 KG",
+    "descripcion": "💥 LAVASECARROPAS PHILCO 11 KG* 🔮 💸 12 meses de $175.000",
+    "precio": "1217500",
+    "imagen": "img/lavasecarropas_philco.jpeg",
+    "categoria": "Lavado"
+  },
+  {
+    "id": "prod0003",
+    "nombre": "SOMIER MÁS BASE Y ALMOHADAS 2 PLAZAS",
+    "descripcion": "🛏️ SOMIER MÁS BASE Y ALMOHADAS 2 PLAZAS 😴 Descanso perfecto",
+    "precio": "380000",
+    "imagen": "img/somier_2plazas.jpeg",
+    "categoria": "Dormitorio"
+  },
+  {
+    "id": "prod0004",
+    "nombre": "BICICLETA FIRE BIRD",
+    "descripcion": "🚴 BICICLETA FIRE BIRD 🚀 Entrega inmediata y cuotas fijas",
+    "precio": "250000",
+    "imagen": "img/bicicleta_firebird.jpeg",
+    "categoria": "Deportes"
+  },
+  {
+    "id": "prod0005",
+    "nombre": "SMART TV RCA 75\"",
+    "descripcion": "📺 SMART TV RCA 75\" 4K UHD 🎬 Google TV y Chromecast integrado",
+    "precio": "1350000",
+    "imagen": "img/smart_rca_75.jpeg",
+    "categoria": "Tecnología"
   }
 ]
