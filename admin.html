@@ -650,13 +650,13 @@
         }
 
         function cancelForm() { document.getElementById('form').style.display = 'none'; }
-        function previewImage() {
+        function previewImage(force = false) {
             const img = document.getElementById('preview');
             const url = document.getElementById('imagen').value.trim();
             if (!url) { img.style.display = 'none'; return; }
             
             // Si ya estamos mostrando un blob local recién subido, no lo sobrescribimos con la ruta de github
-            if (img.src.startsWith('blob:') && img.style.display === 'block' && url.startsWith('img/')) {
+            if (!force && img.src.startsWith('blob:') && img.style.display === 'block' && url.startsWith('img/')) {
                 return;
             }
             
@@ -698,7 +698,7 @@
             document.getElementById('descripcion').value = p.descripcion || '';
             document.getElementById('imagen').value = p.imagen || '';
             document.getElementById('categoria').value = p.categoria || '';
-            previewImage();
+            previewImage(true);
             document.getElementById('form').style.display = 'block';
             window.scrollTo({ top: 0, behavior: "smooth" });
         }
