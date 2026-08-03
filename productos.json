@@ -18,24 +18,24 @@
   {
     "id": "prod0003",
     "nombre": "SOMIER MÁS BASE Y ALMOHADAS 2 PLAZAS",
-    "descripcion": "🛏️ SOMIER MÁS BASE Y ALMOHADAS 2 PLAZAS 😴 Descanso perfecto",
-    "precio": "380000",
+    "descripcion": "Pillow de excelente calidad, ancho y confortable, pensado para brindar un descanso cómodo y firme. Incluye base con patas de madera y 2 almohadas\n📏 Medidas: 190 × 140 cm",
+    "precio": "12 meses de $88.000",
     "imagen": "img/somier_2plazas.jpeg",
     "categoria": "Dormitorio"
   },
   {
     "id": "prod0004",
     "nombre": "BICICLETA FIRE BIRD",
-    "descripcion": "🚴 BICICLETA FIRE BIRD 🚀 Entrega inmediata y cuotas fijas",
-    "precio": "250000",
+    "descripcion": "🛞Frenos: A disco delantero y trasero de 160mm\nCaja de dirección🚲 integrada\nCaño de asiento aluminio\nAsiento: MTB acolchado\nPuños: de goma \nMazas: de 36 agujeros y ejes con cierre rápido\nRayos: 36 rayos por rueda reforzados\nLlantas: de aluminio doble pared negras con cierre rápido",
+    "precio": "12 meses de $70.000",
     "imagen": "img/bicicleta_firebird.jpeg",
     "categoria": "Deportes"
   },
   {
     "id": "prod0005",
     "nombre": "SMART TV RCA 75\"",
-    "descripcion": "📺 SMART TV RCA 75\" 4K UHD 🎬 Google TV y Chromecast integrado",
-    "precio": "1350000",
+    "descripcion": "Google TV, Resolución 4K UHD\nChromecast integrado\n✅ Netflix, Prime Video, Disney+ y YouTube",
+    "precio": "18 MESES DE $230.000",
     "imagen": "img/smart_rca_75.jpeg",
     "categoria": "Tecnología"
   }
