@@ -345,7 +345,7 @@
                                 <h3 class="item-title">${p.nombre}</h3>
                                 <p class="item-desc">${p.descripcion}</p>
                             </div>
-                            <span class="price">$${p.precio}</span>
+                            <span class="price">${p.precio.toString().includes('$') ? p.precio : '$' + p.precio}</span>
                         </div>
                     </div>`).join('');
             }

@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h3 class="item-title">${nombre}</h3>
                         <p class="item-desc">${desc}</p>
                     </div>
-                    <div class="item-price">$${precio}</div>
+                    <div class="item-price">${precio.toString().includes('$') ? precio : '$' + precio}</div>
                 </div>
             `;
             list.appendChild(item);

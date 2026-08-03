@@ -364,7 +364,7 @@
                 </div>
                 <div>
                     <label style="font-size:13px; font-weight:600; display:block; margin-bottom:5px;">Precio ($)</label>
-                    <input id="precio" type="text" placeholder="Solo números" style="width:100%;">
+                    <input id="precio" type="text" placeholder="Ej: 380000 o 12 meses de $175.000" style="width:100%;">
                 </div>
                 <div style="grid-column: 1 / -1">
                     <label style="font-size:13px; font-weight:600; display:block; margin-bottom:5px;">Descripción y
@@ -576,7 +576,7 @@
             });
         }
 
-        function sanitizePrice(v) { return String(v || '0').replace(/[^\d]/g, ''); }
+        function sanitizePrice(v) { return String(v || '').trim(); }
         function findIndexById(id) { return productos.findIndex(p => p.id === id); }
         function generateNextProdId() {
             let max = 0;
