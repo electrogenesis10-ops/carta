@@ -38,5 +38,29 @@
     "precio": "18 MESES DE $230.000",
     "imagen": "img/smart_rca_75.jpeg",
     "categoria": "Tecnología"
+  },
+  {
+    "id": "prod0006",
+    "nombre": "Heladera NEBA 300L + Cocina MARTIRI",
+    "descripcion": "✅ Heladera de 300 litros con freezer superior. \n✅ Cocina Martiri de excelente calidad, ideal para el uso diario. \n✅ Diseño moderno y gran capacidad.",
+    "precio": "12 meses de $165.000",
+    "imagen": "img/1785719991310_whatsapp_image_2026_08_02_at_8_50_32_pm.jpeg",
+    "categoria": "¡SUPER COMBO!"
+  },
+  {
+    "id": "prod0007",
+    "nombre": "COMBO COCINA BLANCA 120 LINE",
+    "descripcion": "COCINA MARTIRI\n- Horno con visor de vidrio\n- Válvula de seguridad\n- Gas Natural o Envasado\n📏 51 cm x 86 cm x 53 cm prof",
+    "precio": "12 meses de $131.000",
+    "imagen": "img/1785720104483_whatsapp_image_2026_08_02_at_9_18_36_pm.jpeg",
+    "categoria": "¡SUPER COMBO!"
+  },
+  {
+    "id": "prod0008",
+    "nombre": "AIRE ACONDICIONADO NOBLEX 3400W FRIO/CALOR (NXS32HA4CN",
+    "descripcion": "- FILTRO LAVABLE\n- MODO DESHUMIDIFICACION\n- FUNCION FEEL\n- SUOER SILENCIOSO\n- CLASE A AHORRO DE ENERGIA\n- BARRIDO DE AIRE AUTOMATICO\n3 meses de $387.000\n6 meses de $242.000\n12 meses de $145.000",
+    "precio": "12 meses de $145.000",
+    "imagen": "img/1785720279334_whatsapp_image_2026_08_02_at_9_11_30_pm.jpeg",
+    "categoria": "AIRE ACONDICIONADO"
   }
 ]
