@@ -158,5 +158,29 @@
     "precio": "12 MESES DE $163.000",
     "imagen": "img/1787687897478_whatsapp_image_2026_08_24_at_1_13_04_pm.jpeg",
     "categoria": "SONIDO"
+  },
+  {
+    "id": "prod0032",
+    "nombre": "TORRE DE MUSICA AZANA HT-200 2 X 10",
+    "descripcion": "PARLANTE SÚPER PESADO CALIDAD PREMIUM 🎧🎶 ▫️ 85 cm alto x 34 x 35 \n▫️ TWS . LUCES CRE LED \n▫️ Recargable,conexión Bluetooth \n▫️ Usb , aux , ranura Se \n EXECELENTE SONIDO",
+    "precio": "10 MESES DE $69.000",
+    "imagen": "img/1787687971122_whatsapp_image_2026_08_24_at_1_13_03_pm.jpeg",
+    "categoria": "SONIDO"
+  },
+  {
+    "id": "prod0033",
+    "nombre": "Parlante 2×3\" Greatnice",
+    "descripcion": "",
+    "precio": "3 MESES DE $14.000",
+    "imagen": "img/1787688012234_whatsapp_image_2026_08_24_at_1_13_03_pm__1_.jpeg",
+    "categoria": "SONIDO"
+  },
+  {
+    "id": "prod0034",
+    "nombre": "PARLANTE GREATNICE 3”",
+    "descripcion": "🎶 Sonido potente y limpio con luces LED\n📻 FM Radio / Bluetooth / USB / Micro SD\n🔋 Batería recargable – ideal para uso portátil\n📱 Compatible con todos los dispositivos",
+    "precio": "3 MESES DE $7900",
+    "imagen": "img/1787688143387_whatsapp_image_2026_08_24_at_1_13_03_pm__2_.jpeg",
+    "categoria": "SONIDO"
   }
 ]
