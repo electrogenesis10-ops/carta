@@ -1,61 +1,5 @@
 [
   {
-    "id": "prod0001",
-    "nombre": "COCINA",
-    "descripcion": "cuatro hornallas✨ COCINA USMAN INDUSTRIAL*✨\n3 meses de $197.000\n6 meses de $123.000\n12 meses de $74.000 🎁🎁\nCuenta con 4 hornallas de buen rendimiento, parrillas resistentes y horno amplio con vidrio templado para controlar la cocción fácilmente._\n✨ Diseño en acero inoxidable y negro, moderno y duradero",
-    "precio": "12 meses de $74.000",
-    "imagen": "img/1785718248022_whatsapp_image_2026_08_02_at_9_01_37_pm.jpeg",
-    "categoria": "Promo del Mes"
-  },
-  {
-    "id": "prod0002",
-    "nombre": "LAVASECARROPAS PHILCO 11 KG",
-    "descripcion": "💥 LAVASECARROPAS PHILCO 11 KG* 🔮 💸 12 meses de $175.000",
-    "precio": "12 meses de $175.000",
-    "imagen": "img/lavasecarropas_philco.jpeg",
-    "categoria": "LAVARROPAS Y SECARROPAS"
-  },
-  {
-    "id": "prod0003",
-    "nombre": "SOMIER MÁS BASE Y ALMOHADAS 2 PLAZAS",
-    "descripcion": "Pillow de excelente calidad, ancho y confortable, pensado para brindar un descanso cómodo y firme. Incluye base con patas de madera y 2 almohadas\n📏 Medidas: 190 × 140 cm",
-    "precio": "12 meses de $88.000",
-    "imagen": "img/somier_2plazas.jpeg",
-    "categoria": "DORMITORI"
-  },
-  {
-    "id": "prod0004",
-    "nombre": "BICICLETA FIRE BIRD",
-    "descripcion": "🛞Frenos: A disco delantero y trasero de 160mm\nCaja de dirección🚲 integrada\nCaño de asiento aluminio\nAsiento: MTB acolchado\nPuños: de goma \nMazas: de 36 agujeros y ejes con cierre rápido\nRayos: 36 rayos por rueda reforzados\nLlantas: de aluminio doble pared negras con cierre rápido",
-    "precio": "12 meses de $70.000",
-    "imagen": "img/bicicleta_firebird.jpeg",
-    "categoria": "Deportes"
-  },
-  {
-    "id": "prod0005",
-    "nombre": "SMART TV RCA 75\"",
-    "descripcion": "Google TV, Resolución 4K UHD\nChromecast integrado\n✅ Netflix, Prime Video, Disney+ y YouTube",
-    "precio": "18 MESES DE $230.000",
-    "imagen": "img/smart_rca_75.jpeg",
-    "categoria": "Tecnología"
-  },
-  {
-    "id": "prod0006",
-    "nombre": "Heladera NEBA 300L + Cocina MARTIRI",
-    "descripcion": "✅ Heladera de 300 litros con freezer superior. \n✅ Cocina Martiri de excelente calidad, ideal para el uso diario. \n✅ Diseño moderno y gran capacidad.",
-    "precio": "12 meses de $165.000",
-    "imagen": "img/1785719991310_whatsapp_image_2026_08_02_at_8_50_32_pm.jpeg",
-    "categoria": "¡SUPER COMBO!"
-  },
-  {
-    "id": "prod0007",
-    "nombre": "COMBO COCINA BLANCA 120 LINE",
-    "descripcion": "COCINA MARTIRI\n- Horno con visor de vidrio\n- Válvula de seguridad\n- Gas Natural o Envasado\n📏 51 cm x 86 cm x 53 cm prof",
-    "precio": "12 meses de $131.000",
-    "imagen": "img/1785720104483_whatsapp_image_2026_08_02_at_9_18_36_pm.jpeg",
-    "categoria": "¡SUPER COMBO!"
-  },
-  {
     "id": "prod0008",
     "nombre": "AIRE ACONDICIONADO NOBLEX 3400W FRIO/CALOR (NXS32HA4CN",
     "descripcion": "- FILTRO LAVABLE\n- MODO DESHUMIDIFICACION\n- FUNCION FEEL\n- SUOER SILENCIOSO\n- CLASE A AHORRO DE ENERGIA\n- BARRIDO DE AIRE AUTOMATICO\n3 meses de $387.000\n6 meses de $242.000\n12 meses de $145.000",
@@ -64,43 +8,27 @@
     "categoria": "AIRE ACONDICIONADO"
   },
   {
-    "id": "prod0009",
-    "nombre": "SECARROPAS CENTRÍFUGO KOHINOOR C-755/2 5.5KG",
-    "descripcion": "3 meses de $134.000\n6 meses de $84.000\n10 meses de $60.000",
-    "precio": "10 meses de $60.000",
-    "imagen": "img/1785720776243_whatsapp_image_2026_08_02_at_8_55_05_pm.jpeg",
-    "categoria": "Lavadoras y secarropa"
-  },
-  {
-    "id": "prod0010",
-    "nombre": "Lavarropa Secarropas",
-    "descripcion": "Lavarropa semiautomático 7 kg_3 meses de $193.000\n6 meses de $121.000\n 10 meses de $87.000\n🧼 Secarropas centrífugo 5.5 kg",
-    "precio": "10 meses de $87.000",
-    "imagen": "img/1785720858964_whatsapp_image_2026_08_02_at_8_53_27_pm.jpeg",
-    "categoria": "¡SUPER COMBO!"
-  },
-  {
-    "id": "prod0011",
-    "nombre": "TORRE DUAVF CON PANTALLA 12X2",
-    "descripcion": "3 meses de $435.000\n6 meses de $272.000🎼 28000 WPMPO de potencia\n🔊 Doble woofer 12” + 2 parlantes\nPantalla táctil 15,4, luces led\n2 Micrófonos incluidos\nBluetooth / USB / TF / FM/Batería recargable\n💣 12 meses de $163.000",
-    "precio": "12 meses de $163.000",
-    "imagen": "img/1785721170713_whatsapp_image_2026_08_02_at_9_07_51_pm.jpeg",
-    "categoria": "HOGAR"
-  },
-  {
-    "id": "prod0012",
-    "nombre": "COMBO COCINA + HORNO ELECTRICO LUSQTOFF",
-    "descripcion": "COCINA MULTIGAS \n5 HORNALLAS\nHORNO AMPLIO\nMAXIMA POTENCIA Y RENDIMIENTO\nDISEÑO MODERNO Y RESISTENTE",
-    "precio": "12 MESES DE $100.000",
-    "imagen": "img/default.jpg",
-    "categoria": "COMBOS !!!🔥"
-  },
-  {
     "id": "prod0013",
     "nombre": "COMBO COCINA PEABODY  + HORNO ELECTRICO LUSQTOFF",
     "descripcion": "COCINA MULTIGAS\n5 HORNALLAS\nHORNO AMPLIO\nMAXIMA POTENCIA Y RENDIMIENTO\nDISEÑO  MODERNO Y RESISTENTE",
     "precio": "12 MESES DE $100.000",
     "imagen": "img/1787679736121_whatsapp_image_2026_08_24_at_1_30_13_pm.jpeg",
     "categoria": "SUPER PROMO!!!🔥"
+  },
+  {
+    "id": "prod0014",
+    "nombre": "Bicicleta Fire Bird Turbo R29",
+    "descripcion": "Frenos: A disco delantero y trasero de 160mm\nCaja de dirección🚲 integrada\nCaño de asiento aluminio\nAsiento: MTB acolchado\nPuños: de goma \nMazas: de 36 agujeros y ejes con cierre rápido\nRayos: 36 rayos por rueda reforzados\nLlantas: de aluminio doble pared negras con cierre rápido",
+    "precio": "12 MESES DE $70.000",
+    "imagen": "img/1787680295731_whatsapp_image_2026_08_24_at_1_15_16_pm.jpeg",
+    "categoria": "DEPORTES"
+  },
+  {
+    "id": "prod0015",
+    "nombre": "Bicicleta Vex R29 Con Luz Tracera",
+    "descripcion": "* Cuadro de acero, resistente y duradero\n* Frenos a disco mecánicos\n* Sistema de cambios para mejor adaptación al terreno\n* Cubiertas anchas con buen agarre\n* Luz trasera incluida para mayor seguridad",
+    "precio": "10 MESES DE $70.000",
+    "imagen": "img/1787680451844_whatsapp_image_2026_08_24_at_1_15_16_pm__1_.jpeg",
+    "categoria": "DEPORTES"
   }
 ]
