@@ -22,5 +22,13 @@
     "precio": "12 MESES DE $75.000",
     "imagen": "img/1787681779007_whatsapp_image_2026_08_25_at_3_10_51_pm.jpeg",
     "categoria": "COCINA"
+  },
+  {
+    "id": "prod0015",
+    "nombre": "COCINA MARTIRI",
+    "descripcion": "- Horno con visor de vidrio\n- Válvula de seguridad\n- Gas Natural o Envasado\n📏 51 cm x 86 cm x 53 cm prof",
+    "precio": "10 MESES DE $68.000",
+    "imagen": "img/1787681870064_whatsapp_image_2026_08_25_at_3_10_52_pm.jpeg",
+    "categoria": "COCINA"
   }
 ]
