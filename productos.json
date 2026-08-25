@@ -182,5 +182,21 @@
     "precio": "3 MESES DE $7900",
     "imagen": "img/1787688143387_whatsapp_image_2026_08_24_at_1_13_03_pm__2_.jpeg",
     "categoria": "SONIDO"
+  },
+  {
+    "id": "prod0035",
+    "nombre": "PARLANTE TORRE SING-E 8 X 3",
+    "descripcion": "TORRE DE 1 METRO, INALÁMBRICA A BLUETOOTH CON UN EXCELENTE SONIDO .\n 20 W X 3 \n MICRÓFONO 🎤 \n CONTROL 🕹️",
+    "precio": "12 MESES DE $48.000",
+    "imagen": "img/1787688219561_whatsapp_image_2026_08_24_at_1_13_02_pm.jpeg",
+    "categoria": "SONIDO"
+  },
+  {
+    "id": "prod0036",
+    "nombre": "TORRE POTENCIA KIOTO 2 X10 TW1500",
+    "descripcion": "Excelente Sonido",
+    "precio": "10 MESES DE $77.000",
+    "imagen": "img/1787688292171_whatsapp_image_2026_08_24_at_1_13_02_pm__1_.jpeg",
+    "categoria": "SONIDO"
   }
 ]
