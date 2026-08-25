@@ -86,5 +86,13 @@
     "precio": "12 meses de $163.000",
     "imagen": "img/1785721170713_whatsapp_image_2026_08_02_at_9_07_51_pm.jpeg",
     "categoria": "HOGAR"
+  },
+  {
+    "id": "prod0012",
+    "nombre": "Celular Motorola Moto G15",
+    "descripcion": "RAM: 8GB",
+    "precio": "180000",
+    "imagen": "img/1787679103231_moto_g15.jpeg",
+    "categoria": "General"
   }
 ]
