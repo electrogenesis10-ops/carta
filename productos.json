@@ -30,5 +30,29 @@
     "precio": "10 MESES DE $68.000",
     "imagen": "img/1787681870064_whatsapp_image_2026_08_25_at_3_10_52_pm.jpeg",
     "categoria": "COCINA"
+  },
+  {
+    "id": "prod0016",
+    "nombre": "COCINA USMAN INDUSTRIAL",
+    "descripcion": "Practicidad y potencia para todos los días, Cuenta con 4 hornallas de buen rendimiento, parrillas resistentes y horno amplio con vidrio templado para controlar la cocción fácilmente.\n✨ Diseño en acero inoxidable y negro, moderno y duradero",
+    "precio": "12 MESES DE $74.000",
+    "imagen": "img/1787682022543_whatsapp_image_2026_08_25_at_3_10_52_pm__1_.jpeg",
+    "categoria": "COCINA"
+  },
+  {
+    "id": "prod0017",
+    "nombre": "COCINA PEABODY NEGRO",
+    "descripcion": "4 hornallas de alta eficiencia\nHorno amplio con visor\nválvula de seguridad,multigas",
+    "precio": "12 MESES DE $75.000",
+    "imagen": "img/1787682116532_whatsapp_image_2026_08_25_at_3_10_53_pm.jpeg",
+    "categoria": "COCINA"
+  },
+  {
+    "id": "prod0018",
+    "nombre": "COCINA PEABODY NEGRO",
+    "descripcion": "4 hornallas de alta eficiencia\nHorno amplio con visor\nválvula de seguridad,multigas",
+    "precio": "12 MESES DE $75.000",
+    "imagen": "img/1787682206462_whatsapp_image_2026_08_25_at_3_10_53_pm.jpeg",
+    "categoria": "SUPER PROMO!!!🔥"
   }
 ]
