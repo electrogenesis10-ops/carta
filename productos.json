@@ -238,5 +238,21 @@
     "precio": "10 meses de $87.000",
     "imagen": "img/1787689021444_whatsapp_image_2026_08_24_at_1_10_38_pm__2_.jpeg",
     "categoria": "COMBOS !!!🔥"
+  },
+  {
+    "id": "prod0042",
+    "nombre": "SMART ENOVA DE 43 PULGADAS",
+    "descripcion": "- Google TV con control remoto por voz\n- Netflix, YouTube, Prime Video y más, Chromecast integrado\n- Dolby Audio para un sonido envolvente",
+    "precio": "12 MESES DE $83.000",
+    "imagen": "img/1787689249839_whatsapp_image_2026_08_24_at_1_07_34_pm.jpeg",
+    "categoria": "SMARTS"
+  },
+  {
+    "id": "prod0043",
+    "nombre": "SMART TV RCA DE 75",
+    "descripcion": "GOOGLE TV, RESOLUCION 4K UHD\nCHROMECAST INTEGRADO\nNETFLIX, PRIME VIDEO, DISNEY + Y YOUTUBE",
+    "precio": "18 MESES DE $180.000",
+    "imagen": "img/1787689625607_whatsapp_image_2026_08_24_at_1_07_33_pm.jpeg",
+    "categoria": "SMARTS"
   }
 ]
