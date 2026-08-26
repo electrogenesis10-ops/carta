@@ -412,7 +412,7 @@
     "nombre": "Campana Purificador Turena Cuccinela (6073)",
     "descripcion": "✅ Acero inoxidable\n✅ 3 velocidades\n✅ Medidas 60x23x45 cm\n✅ Potencia 140W",
     "precio": "10 meses de $55.000",
-    "imagen": "img/1787763679772_whatsapp_image_2026_08_24_at_1_00_52_pm.jpeg",
+    "imagen": "img/1787769419316_whatsapp_image_2026_08_26_at_3_36_46_pm.jpeg",
     "categoria": "COCINA"
   },
   {
@@ -502,5 +502,21 @@
     "precio": "12 meses de $102.000",
     "imagen": "img/1787769193892_whatsapp_image_2026_08_26_at_3_28_12_pm__2_.jpeg",
     "categoria": "TECNOLOGÍA"
+  },
+  {
+    "id": "prod0075",
+    "nombre": "AURICULARES PMAX 700",
+    "descripcion": "Compatible con Bluetooth, tarjeta TF y entrada AUX 3.5 mm\nPantalla digital\n🔋 Batería recargable de larga duración",
+    "precio": "4 semanas de $10.000",
+    "imagen": "img/1787769341904_whatsapp_image_2026_08_26_at_3_28_13_pm.jpeg",
+    "categoria": "TECNOLOGÍA"
+  },
+  {
+    "id": "prod0076",
+    "nombre": "Moto a batería para niños Vespa 12v",
+    "descripcion": "",
+    "precio": "8 meses de $57.000",
+    "imagen": "img/1787769823154_whatsapp_image_2026_08_26_at_3_39_52_pm.jpeg",
+    "categoria": "JUGUETES"
   }
 ]
