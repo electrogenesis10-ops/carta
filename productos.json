@@ -518,5 +518,37 @@
     "precio": "8 meses de $57.000",
     "imagen": "img/1787769823154_whatsapp_image_2026_08_26_at_3_39_52_pm.jpeg",
     "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0077",
+    "nombre": "TRICICLO BEBESIT 3 EN 1",
+    "descripcion": "✔️ 3 modos de uso: empuje, pedales y camicleta\n👶 De 2 a 5 años\n🛠️ Acero reforzado\n🔧 Asiento y manubrio regulables",
+    "precio": "6 meses de $25.000",
+    "imagen": "img/1787769907791_whatsapp_image_2026_08_26_at_3_39_53_pm.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0078",
+    "nombre": "ROLLERS UNICORNIO REGULABLE TINY",
+    "descripcion": "Rollers con sistema extensible.\nIncluye kit de protección (mochila casco,rodilleras, coderas y muñequeras)\nTalles:  S 30 al 33.    ⁠M; 34 al 37.",
+    "precio": "5 meses de $23.000",
+    "imagen": "img/1787770058049_whatsapp_image_2026_08_26_at_3_39_53_pm__1_.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0079",
+    "nombre": "PATINES TINY UNICORNIO",
+    "descripcion": "Patines de 4 ruedas para mayor estabilidad.\nCordones para un ajuste seguro.\n📏 Talles disponibles:\n* 28 al 32",
+    "precio": "5 meses de $20.000",
+    "imagen": "img/1787770272600_whatsapp_image_2026_08_26_at_3_39_53_pm__2_.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0080",
+    "nombre": "CASA DE MUÑECAS TINY",
+    "descripcion": "Un increíble set de 70 cm de altura, con muebles incluidos y dos formas de armado para que la diversión nunca termine.\n✅ Incluye muñeca",
+    "precio": "5 meses de $25.000",
+    "imagen": "img/1787770358056_whatsapp_image_2026_08_26_at_3_39_54_pm.jpeg",
+    "categoria": "JUGUETES"
   }
 ]
