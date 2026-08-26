@@ -382,5 +382,53 @@
     "precio": "12  MESES DE $100.000",
     "imagen": "img/1787763237070_whatsapp_image_2026_08_24_at_1_00_53_pm__2_.jpeg",
     "categoria": "HELADERAS"
+  },
+  {
+    "id": "prod0060",
+    "nombre": "HELADERA PHILCO C/DISPENSER NO FROST",
+    "descripcion": "Tecnología Inverter (menor consumo)\nSistema No Frost (sin escarcha)\nDispenser de agua\nEficiencia energética A",
+    "precio": "12 meses de $170.000",
+    "imagen": "img/1787763329675_whatsapp_image_2026_08_24_at_1_00_53_pm__3_.jpeg",
+    "categoria": "HELADERAS"
+  },
+  {
+    "id": "prod0061",
+    "nombre": "COMBO COCINA BLANCA 120 LINE  + COCINA MARTIRI",
+    "descripcion": "COCINA MARTIRI\n- Horno con visor de vidrio\n- Válvula de seguridad\n- Gas Natural o Envasado\n📏 51 cm x 86 cm x 53 cm prof",
+    "precio": "12 meses de $131.000",
+    "imagen": "img/1787763463309_whatsapp_image_2026_08_24_at_1_00_53_pm__4_.jpeg",
+    "categoria": "COMBOS !!!🔥"
+  },
+  {
+    "id": "prod0062",
+    "nombre": "COMBO COCINA BLANCA 120 LINE",
+    "descripcion": "",
+    "precio": "10 meses de $90.000",
+    "imagen": "img/1787763679772_whatsapp_image_2026_08_24_at_1_00_52_pm.jpeg",
+    "categoria": "COMBOS !!!🔥"
+  },
+  {
+    "id": "prod0063",
+    "nombre": "Campana Purificador Turena Cuccinela (6073)",
+    "descripcion": "✅ Acero inoxidable\n✅ 3 velocidades\n✅ Medidas 60x23x45 cm\n✅ Potencia 140W",
+    "precio": "10 meses de $55.000",
+    "imagen": "img/1787763679772_whatsapp_image_2026_08_24_at_1_00_52_pm.jpeg",
+    "categoria": "COCINA"
+  },
+  {
+    "id": "prod0064",
+    "nombre": "Purificadores de Cocina AXEL / Cuccinela",
+    "descripcion": "✅ Visera móvil\n✅ Función extractor y purificador\n✅ Luz incorporada\n✅ Panel de control con perillas",
+    "precio": "6 meses de $50.000",
+    "imagen": "img/1787763846268_whatsapp_image_2026_08_24_at_1_00_52_pm__3_.jpeg",
+    "categoria": "COCINA"
+  },
+  {
+    "id": "prod0065",
+    "nombre": "Purificador de Aire Vitta 120W Blanco (5727)",
+    "descripcion": "✅ 3 velocidades de extracción\n✅ Potente motor de 120W\n✅ Luz LED integrada\n✅ Doble filtro de aluminio",
+    "precio": "6 meses de $42.000",
+    "imagen": "img/1787763917542_whatsapp_image_2026_08_24_at_1_00_52_pm__4_.jpeg",
+    "categoria": "COCINA"
   }
 ]
