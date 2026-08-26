@@ -598,5 +598,21 @@
     "precio": "3 semanas de $10.000",
     "imagen": "img/1787771802724_whatsapp_image_2026_08_26_at_3_39_56_pm.jpeg",
     "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0087",
+    "nombre": "PIZZARRA MÁGICA 12",
+    "descripcion": "5 pizzarras × $48.000\n10 pizzarras × $72.000",
+    "precio": "$13.000  c/u",
+    "imagen": "img/1787771931010_whatsapp_image_2026_08_26_at_3_39_56_pm__1_.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0088",
+    "nombre": "AUTO ACROBÁTICO 360°",
+    "descripcion": "increíble auto a control remoto realiza giros, vueltas y acrobacias sorprendentes gracias a sus ruedas Mecanum multidireccionales.\n✅ Diseño doble faz (sigue funcionando al darse vuelta)\n✅ Control remoto incluido",
+    "precio": "6 semanas de $10.000",
+    "imagen": "img/1787772023802_whatsapp_image_2026_08_26_at_3_39_56_pm__2_.jpeg",
+    "categoria": "JUGUETES"
   }
 ]
