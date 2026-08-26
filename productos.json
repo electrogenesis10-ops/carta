@@ -590,5 +590,13 @@
     "precio": "3 meses de $22.000",
     "imagen": "img/1787771594451_whatsapp_image_2026_08_26_at_3_39_55_pm__2_.jpeg",
     "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0086",
+    "nombre": "PISTOLA BURBUJERA",
+    "descripcion": "Diseño exclusivo de\n tiburón mecánico_\nGenera gran cantidad de burbujas automáticamente\nIncluye líquido para burbujas\n✅  Luces LED para mayor diversión",
+    "precio": "3 semanas de $10.000",
+    "imagen": "img/1787771802724_whatsapp_image_2026_08_26_at_3_39_56_pm.jpeg",
+    "categoria": "JUGUETES"
   }
 ]
