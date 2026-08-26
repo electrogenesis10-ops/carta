@@ -550,5 +550,45 @@
     "precio": "5 meses de $25.000",
     "imagen": "img/1787770358056_whatsapp_image_2026_08_26_at_3_39_54_pm.jpeg",
     "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0081",
+    "nombre": "MUÑECA CON MINI MOTO ROSA",
+    "descripcion": "Incluye muñeca con vestido y moto scooter\nRecomendada para mayores de 3 años",
+    "precio": "2 meses de $15.000",
+    "imagen": "img/1787770919396_whatsapp_image_2026_08_26_at_3_39_54_pm__1_.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0082",
+    "nombre": "AURICULAR INFANTIL CON OREJITAS",
+    "descripcion": "🎧Conexión inalámbrica\n🐼 Diseño peluche con orejitas y moñito\n✨Almohadillas acolchadas y cómodas✨",
+    "precio": "2 meses de $17.000",
+    "imagen": "img/1787771005595_whatsapp_image_2026_08_26_at_3_39_54_pm__2_.jpeg",
+    "categoria": "TECNOLOGÍA"
+  },
+  {
+    "id": "prod0083",
+    "nombre": "BURBUJERO CAPIBARA",
+    "descripcion": "🐹 Diseño tierno y llamativo\n✨ Luces + burbujas automáticas\n🔄 Cabezal giratorio 180°",
+    "precio": "3 meses de $14.000",
+    "imagen": "img/1787771367950_whatsapp_image_2026_08_26_at_3_39_55_pm.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0084",
+    "nombre": "Pistola BURBUJERA",
+    "descripcion": "",
+    "precio": "3 meses de $12.000",
+    "imagen": "img/1787771506771_whatsapp_image_2026_08_26_at_3_39_55_pm__1_.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0085",
+    "nombre": "PISTOLA DE BURBUJAS LED",
+    "descripcion": "Pistola lanza burbujas con 36 salidas, luces LED de colores y batería recargable.\n✅ Batería recargable 1200mAh incluida",
+    "precio": "3 meses de $22.000",
+    "imagen": "img/1787771594451_whatsapp_image_2026_08_26_at_3_39_55_pm__2_.jpeg",
+    "categoria": "JUGUETES"
   }
 ]
