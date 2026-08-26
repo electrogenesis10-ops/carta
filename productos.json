@@ -454,5 +454,29 @@
     "precio": "12 meses de $86.000",
     "imagen": "img/1787768233619_whatsapp_image_2026_08_26_at_3_14_40_pm.jpeg",
     "categoria": "HABITACIÓN"
+  },
+  {
+    "id": "prod0069",
+    "nombre": "Sommier 1½ 100×190 + juego de dormitorio infantil 5 piezas",
+    "descripcion": "Sommier 1½ 100x190 + juego de dormitorio infantil 5 piezas",
+    "precio": "10 meses de $85.000",
+    "imagen": "img/1787768553428_whatsapp_image_2026_08_26_at_3_14_40_pm__1_.jpeg",
+    "categoria": "SUPER PROMO!!!🔥"
+  },
+  {
+    "id": "prod0070",
+    "nombre": "Sommier king doble pillow",
+    "descripcion": "Espuma alta densidad 200x200",
+    "precio": "12 meses de $120.000",
+    "imagen": "img/1787768650830_whatsapp_image_2026_08_26_at_3_14_42_pm__1_.jpeg",
+    "categoria": "HABITACIÓN"
+  },
+  {
+    "id": "prod0071",
+    "nombre": "Sommier 1½",
+    "descripcion": "",
+    "precio": "10 meses de $75.000",
+    "imagen": "img/1787768720735_whatsapp_image_2026_08_26_at_3_14_42_pm__2_.jpeg",
+    "categoria": "HABITACIÓN"
   }
 ]
