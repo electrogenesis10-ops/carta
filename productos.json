@@ -445,6 +445,14 @@
     "descripcion": "ROPERO 2 PUERTAS 3 CAJONES\nCUNA FUNCIONAL\nAMPLIO ESPACIO",
     "precio": "12 meses de $87.000",
     "imagen": "img/1787767876512_whatsapp_image_2026_08_26_at_3_04_44_pm.jpeg",
-    "categoria": "General"
+    "categoria": "HABITACIÓN"
+  },
+  {
+    "id": "prod0068",
+    "nombre": "COMBO SOMMIER 2½",
+    "descripcion": "ESPUMA ALTA DENSINDAD\nSOPORTA 130KG POR LADO\nCALIDAD Y CONFORT GARANTIZADO",
+    "precio": "12 meses de $86.000",
+    "imagen": "img/1787768233619_whatsapp_image_2026_08_26_at_3_14_40_pm.jpeg",
+    "categoria": "HABITACIÓN"
   }
 ]
