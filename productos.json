@@ -614,5 +614,37 @@
     "precio": "6 semanas de $10.000",
     "imagen": "img/1787772023802_whatsapp_image_2026_08_26_at_3_39_56_pm__2_.jpeg",
     "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0089",
+    "nombre": "MONSTER TRUCK",
+    "descripcion": "Monster a control remoto supera obstáculos, realiza increíbles maniobras y sorprende con su efecto spray, luces LED y música.\nRuedas todoterreno de gran tamaño\n✅ Ideal para todo tipo de superficies",
+    "precio": "7 semanas de $13.000",
+    "imagen": "img/1787843548818_whatsapp_image_2026_08_26_at_3_39_57_pm.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0090",
+    "nombre": "AUTO RC CON CONTROL",
+    "descripcion": "realiza giros de 360°, derrapes y acrobacias increíbles gracias a sus 8 ruedas multidireccionales.\n✅ Ruedas omnidireccionales para todo tipo de movimientos",
+    "precio": "7 semanas de de $13.000",
+    "imagen": "img/1787843671561_whatsapp_image_2026_08_26_at_3_39_57_pm__1_.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0091",
+    "nombre": "AUTO SPRAY CON CONTROL REMOTO",
+    "descripcion": "Realiza derrapes, giros de 360° y movimientos en todas las direcciones. Además, cuenta con función de spray, luces LED y control por gestos para una experiencia de juego única.\n✅ Control remoto 2.4G",
+    "precio": "6 semanas de $11.500",
+    "imagen": "img/1787843805837_whatsapp_image_2026_08_26_at_3_39_58_pm.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0092",
+    "nombre": "DRONE CUADRICOPTERO",
+    "descripcion": "Control remoto, Diseño tipo avión de combate\nLuces LED incorporadas\nRecargable por USB",
+    "precio": "4 semanas de $11.250",
+    "imagen": "img/1787844010489_whatsapp_image_2026_08_26_at_3_39_58_pm__1_.jpeg",
+    "categoria": "JUGUETES"
   }
 ]
