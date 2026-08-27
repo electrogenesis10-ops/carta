@@ -686,5 +686,37 @@
     "precio": "4 semanas de $11.000",
     "imagen": "img/1787846955935_whatsapp_image_2026_08_26_at_3_40_01_pm.jpeg",
     "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0098",
+    "nombre": "AUTO ACROBÁTICO",
+    "descripcion": "- Giros 360° y movimiento lateral\n- Luces y sonidos\n- Control remoto incluido\n- Batería recargable USB\n✅  Acrobacias y drift extremos",
+    "precio": "5 SEMANAS DE $10.000",
+    "imagen": "img/1787847710121_whatsapp_image_2026_08_26_at_3_40_02_pm.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0099",
+    "nombre": "CAPIBARA MUÑEQUERA INFANTIL",
+    "descripcion": "2 unidades × $22.000\n3 unidades × $34.000",
+    "precio": "3 semanas de $5.000",
+    "imagen": "img/1787847765717_whatsapp_image_2026_08_26_at_3_40_02_pm__1_.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0100",
+    "nombre": "PELUCHE GRANDE CAPI BARA CON MANTA 1./5 P",
+    "descripcion": "DIFERENTES DISEÑOS\nCAPI BARA \nSON UNA LOCURA",
+    "precio": "4 semanas de $16.000",
+    "imagen": "img/1787847864282_whatsapp_image_2026_08_26_at_3_40_03_pm.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0101",
+    "nombre": "RESPALDOS",
+    "descripcion": "1½ 100cm 6 meses de $50.000\n2½  140cm 6 meses de $55.000\nKing 200cm 6 meses de $70.000",
+    "precio": "6 meses de $70.000",
+    "imagen": "img/1787848061402_whatsapp_image_2026_08_26_at_3_40_03_pm__1_.jpeg",
+    "categoria": "HABITACIÓN"
   }
 ]
