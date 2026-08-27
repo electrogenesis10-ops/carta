@@ -646,5 +646,45 @@
     "precio": "4 semanas de $11.250",
     "imagen": "img/1787844010489_whatsapp_image_2026_08_26_at_3_39_58_pm__1_.jpeg",
     "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0093",
+    "nombre": "AVIÓN DRONE",
+    "descripcion": "Este avión a control remoto combina el diseño de un caza con la estabilidad de un dron, ideal para realizar vuelos llenos de acción.\n ✅ Control remoto de fácil manejo",
+    "precio": "4 semanas de $11.250",
+    "imagen": "img/1787846651779_whatsapp_image_2026_08_26_at_3_39_59_pm.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0094",
+    "nombre": "CONSOLA GAME STICK M15",
+    "descripcion": "🔥 Más de 15.000 juegos clásicos en un solo dispositivo\n🎮 Incluye 2 joysticks inalámbricos\n⚡ Listo para conectar y jugar al instante",
+    "precio": "7 semanas de $12.000",
+    "imagen": "img/1787846743340_whatsapp_image_2026_08_26_at_3_39_59_pm__1_.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0095",
+    "nombre": "CAJA DE HERRAMIENTAS DE JUGUETE",
+    "descripcion": "Mesa de trabajo que se transforma en valija portátil\nIncluye herramientas, es fácil de armar y tiene espacio para guardar todo.\nIdeal para niños +3 años\n✨Práctica, divertida y perfecta para jugar en casa o llevar a todos lados.",
+    "precio": "6 semanas de $12.700",
+    "imagen": "img/1787846795623_whatsapp_image_2026_08_26_at_3_40_00_pm.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0096",
+    "nombre": "PELOTA VOLADORA",
+    "descripcion": "",
+    "precio": "$16.000 c/u",
+    "imagen": "img/1787846883124_whatsapp_image_2026_08_26_at_3_40_00_pm__1_.jpeg",
+    "categoria": "JUGUETES"
+  },
+  {
+    "id": "prod0097",
+    "nombre": "AUTO A CONTROL REMOTO",
+    "descripcion": "Realiza giros, acrobacias y vueltas de 360° con luces LED para una experiencia llena de acción.\nControl remoto 2.4G\n✅  Doble cara (sigue funcionando aunque se dé vuelta)\n✅ Gran estabilidad y agarre",
+    "precio": "4 semanas de $11.000",
+    "imagen": "img/1787846955935_whatsapp_image_2026_08_26_at_3_40_01_pm.jpeg",
+    "categoria": "JUGUETES"
   }
 ]
