@@ -749,6 +749,14 @@
     "descripcion": "421 PIEZAS.\nSUPER COMPLETO",
     "precio": "10 meses de $60.000",
     "imagen": "img/1787849399075_whatsapp_image_2026_08_27_at_1_37_49_pm.jpeg",
-    "categoria": "General"
+    "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0106",
+    "nombre": "Sierra caladora lusqtof",
+    "descripcion": "",
+    "precio": "6 meses de $25.000",
+    "imagen": "img/1787928389718_whatsapp_image_2026_08_27_at_1_37_50_pm.jpeg",
+    "categoria": "HERRAMIENTAS"
   }
 ]
