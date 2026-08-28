@@ -766,5 +766,85 @@
     "precio": "6 meses de $22.000",
     "imagen": "img/1787928447870_whatsapp_image_2026_08_27_at_1_37_50_pm__1_.jpeg",
     "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0108",
+    "nombre": "ARRANCADOR DE BATERÍA E INFLADOR DE AUTO",
+    "descripcion": "Solución ideal para emergencias: arranca tu auto, infla ruedas y carga dispositivos desde un solo equipo\nCompacto, potente y fácil de usar, con pantalla digital y luz LED para usar de noche\n\n🔋 Arrancador de batería\n💨 Inflador de neumáticos\n🔦 Linterna de emergencia\n🔌 Power bank USB / Type-C",
+    "precio": "5 meses de $36.000",
+    "imagen": "img/default.jpg",
+    "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0109",
+    "nombre": "Taladro Atornillador Con Percutor 10 mm Lusqtoff",
+    "descripcion": "",
+    "precio": "8 meses de $38.000",
+    "imagen": "img/1787931981284_whatsapp_image_2026_08_27_at_1_37_51_pm.jpeg",
+    "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0110",
+    "nombre": "ARRANCADOR DE AUTO CON BATERIA PORTÁTIL",
+    "descripcion": "Arrancá tu auto en segundos, inflá neumáticos y cargá tus dispositivos. Incluye compresor, luz LED de emergencia , función power bank Y accesorios. Compacto, práctico y fácil de transportar. Ideal para auto, moto y lancha\n6000mah 220V",
+    "precio": "6 meses de $35.000",
+    "imagen": "img/1787932117983_whatsapp_image_2026_08_27_at_1_37_51_pm__1_.jpeg",
+    "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0111",
+    "nombre": "Equipo de pintar WORKSITE",
+    "descripcion": "",
+    "precio": "6 meses de $40.000",
+    "imagen": "img/1787932277364_whatsapp_image_2026_08_27_at_1_37_51_pm__2_.jpeg",
+    "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0112",
+    "nombre": "Lijadora orbital batería 21v Worksite",
+    "descripcion": "",
+    "precio": "6 meses de $30.000",
+    "imagen": "img/1787932447082_whatsapp_image_2026_08_27_at_1_37_52_pm.jpeg",
+    "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0113",
+    "nombre": "Sierra caladora a batería 21v Worksite",
+    "descripcion": "",
+    "precio": "6 meses de $29.000",
+    "imagen": "img/1787932511798_whatsapp_image_2026_08_27_at_1_37_52_pm__1_.jpeg",
+    "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0114",
+    "nombre": "Hidrolavadora de alta presión  Worksite",
+    "descripcion": "",
+    "precio": "8 meses de $40.000",
+    "imagen": "img/1787932590199_whatsapp_image_2026_08_27_at_1_37_52_pm__2_.jpeg",
+    "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0115",
+    "nombre": "ESCALERA OMAHA 4x4",
+    "descripcion": "Súper resistente, versátil y segura para uso profesional o del hogar\n* 4x4 posiciones\n* Altura extendida: 4,7 mts\n* Plegada: 121,5 cm\n* Peso: 15 kg",
+    "precio": "8 meses de $46.000",
+    "imagen": "img/1787932626513_whatsapp_image_2026_08_27_at_1_37_53_pm.jpeg",
+    "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0116",
+    "nombre": "SOLDADORA INVERTER 200AMP SMITH",
+    "descripcion": "Potencia de hasta 200A.\nSistema turboventilado para trabajos continuo.\nProtección térmica con reinicio automático, Función Anti-Stick.",
+    "precio": "8 MESES DE $38.000",
+    "imagen": "img/1787932669869_whatsapp_image_2026_08_27_at_1_37_53_pm__1_.jpeg",
+    "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0117",
+    "nombre": "CRIKET HIDRÁULICO OMAHA",
+    "descripcion": "Capacidad de carga de hasta 2000 kg.\nRuedas reforzadas para un mejor desplazamiento.\n✅ Altura mínima: 13,5 cm.\n✅ Altura máxima: 30 cm.",
+    "precio": "6 MESES DE $20.000",
+    "imagen": "img/1787932729679_whatsapp_image_2026_08_27_at_1_37_54_pm.jpeg",
+    "categoria": "HERRAMIENTAS"
   }
 ]
