@@ -846,5 +846,13 @@
     "precio": "6 MESES DE $20.000",
     "imagen": "img/1787932729679_whatsapp_image_2026_08_27_at_1_37_54_pm.jpeg",
     "categoria": "HERRAMIENTAS"
+  },
+  {
+    "id": "prod0118",
+    "nombre": "Desmalezadora Profesional Konan 52 CC",
+    "descripcion": "( Garantia oficial )",
+    "precio": "8 meses de $30.000",
+    "imagen": "img/1787932961644_whatsapp_image_2026_08_28_at_1_00_17_pm.jpeg",
+    "categoria": "HERRAMIENTAS"
   }
 ]
