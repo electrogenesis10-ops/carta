@@ -894,5 +894,189 @@
     "precio": "6 meses de $16.000",
     "imagen": "img/1787933604809_whatsapp_image_2026_08_28_at_1_02_06_pm__2_.jpeg",
     "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0124",
+    "nombre": "Set de 3 Botellas Motivaciones",
+    "descripcion": "Nuevo diseño con pico!",
+    "precio": "3 meses de $12.000",
+    "imagen": "img/1787933705999_whatsapp_image_2026_08_28_at_1_02_07_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0125",
+    "nombre": "BOTELLA ALUMINIO SELECCIÓN",
+    "descripcion": "Material de aluminio súper resistente\nUltra livianas,Tapa hermética\nDiseños exclusivos edición Selección",
+    "precio": "$16.000 c/u",
+    "imagen": "img/1787933898910_whatsapp_image_2026_08_28_at_1_02_09_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0126",
+    "nombre": "VASOS ACRÍLICO CON SORBETE Y PELOTITAS",
+    "descripcion": "Diseños coloridos que destacan\n✨ Con glitter y bolitas decorativas\n✨ Incluyen sorbete y tapa\n💖 Reutilizables e ideales para regalar",
+    "precio": "2 meses de $8.600",
+    "imagen": "img/1787933948367_whatsapp_image_2026_08_28_at_1_02_11_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0127",
+    "nombre": "BOTELLA DE ACERO 720ML",
+    "descripcion": "Doble pared de acero inoxidable para mantener tus bebidas a la temperatura ideal\nConserva bebidas frías o calientes hasta por 12 horas",
+    "precio": "3 meses de $16.000",
+    "imagen": "img/1787933979598_whatsapp_image_2026_08_28_at_1_02_12_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0128",
+    "nombre": "TERMO + MATE Y BOMBILLA FLORIADO",
+    "descripcion": "- Incluye termo + mate + bombilla\n- Acero inoxidable de alta calidad\n- Mantiene caliente y frío\n- ⁠Variedad de diseños😍\nDiseños a elección en el momento",
+    "precio": "4 meses de $18.000",
+    "imagen": "img/1787934014070_whatsapp_image_2026_08_28_at_1_02_12_pm__1_.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0129",
+    "nombre": "BATIDORA DE MANO LILIANA OPTIBAT  MANUAL  SHAKE 450 W",
+    "descripcion": "✓5 velocidades \n✓turbo",
+    "precio": "4 meses de $19.000",
+    "imagen": "img/1787934067942_whatsapp_image_2026_08_28_at_1_02_12_pm__2_.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0130",
+    "nombre": "Batidora de Mano Luma Bella – 7 Velocidades",
+    "descripcion": "Potente motor de 180W, ideal para mezclar, amasar y batir con facilidad. Incluye varillas y ganchos de acero para todas tus recetas. Compacta, práctica y con diseño moderno. ¡Tu aliada perfecta en la cocina!",
+    "precio": "4 meses de $9.000",
+    "imagen": "img/1787934108704_whatsapp_image_2026_08_28_at_1_02_13_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0131",
+    "nombre": "BATIDORA PLANETARIA LÜSQTOFF 1000W",
+    "descripcion": "- Motor potente de 1000W\n- Bowl de acero inoxidable\n- Múltiples velocidades\n- Incluye accesorios: gancho amasador, batidor y mezclador\n🍞 Perfecta para masas, cremas, tortas, panificados y mucho más\n3 colores disponibles",
+    "precio": "8 meses de $45.000",
+    "imagen": "img/1787934167155_whatsapp_image_2026_08_28_at_1_02_13_pm__1_.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0132",
+    "nombre": "BATIDORA DE MESA WINCO",
+    "descripcion": "| ROJA Y NEGRA 🌑 |\n\n ✔️- Bowl de acero inoxidable de 4 litros,\n✔️- 6 velocidades + pulsador\n✔️- Incluye accesorios para batir, mezclar y amasar\n✔️- Base antideslizante y tapa anti salpicaduras",
+    "precio": "8 meses de $35.000",
+    "imagen": "img/1787934230412_whatsapp_image_2026_08_28_at_1_02_13_pm__2_.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0133",
+    "nombre": "MINI PIMER LUMA BELLA",
+    "descripcion": "POTENCIA 200W, 220/240V",
+    "precio": "4 meses de $11.200",
+    "imagen": "img/1787934259242_whatsapp_image_2026_08_28_at_1_02_14_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0134",
+    "nombre": "BATIDORA MIXER LUMA",
+    "descripcion": "Acero inoxidable, Potencia 200W.",
+    "precio": "4 meses de $12.800",
+    "imagen": "img/1787934304685_whatsapp_image_2026_08_28_at_1_02_15_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0135",
+    "nombre": "LICUADORA PEABODY 800 W ACERO INOX. JARRA VIDRIO",
+    "descripcion": "Licuadora con JARRA DE VIDRIO RESISTENTE\n 2 Velocidades más función pulse\n Cuchillas dentenadas de acero inoxidable",
+    "precio": "8 meses de $30.000",
+    "imagen": "img/1787934374368_whatsapp_image_2026_08_28_at_1_02_16_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0136",
+    "nombre": "LICUADORA PROFESIONAL DIGITAL DAEWOO VIDRIO 1500W.",
+    "descripcion": "Licuadora con jarra de vidrio súper resistente, licuadora potente y versátil. Pantalla digital intuitiva para optimizar tus preparaciónes en la cocina . ESTE VERANO, PREPARATE TUS LICUADOS!",
+    "precio": "8 meses de $34.000",
+    "imagen": "img/1787934431338_whatsapp_image_2026_08_28_at_1_02_16_pm__1_.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0137",
+    "nombre": "SANDWICHERA LILIANA ELECTRICA SANDCOOK",
+    "descripcion": "Placas antihaderentes, diseños compactos para sandwiches calientes y crujientes de manera rápida y sencilla. Ideal para tus desayunos o meriendas !",
+    "precio": "4 meses de $14.000",
+    "imagen": "img/1787934461785_whatsapp_image_2026_08_28_at_1_02_17_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0138",
+    "nombre": "TOSTADORA LILIANA TOSTLER",
+    "descripcion": "Está tostadora es una opción práctica y segura para preparar tostadas a gusto. Potencia de 750W, Fácil de limpiar",
+    "precio": "4 meses de $18.000",
+    "imagen": "img/1787934539874_whatsapp_image_2026_08_28_at_1_02_18_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0139",
+    "nombre": "SANDWICHERA DINAX PANINI",
+    "descripcion": "Ideal para preparar sándwiches,  y tostados de fora rápida y sencilla.\nPlacas antiadherentes, capacidad para 2 sándwiches, mango resistente al calor y cierre de seguridad.",
+    "precio": "4 meses de $13.000",
+    "imagen": "img/1787934594542_whatsapp_image_2026_08_28_at_1_02_19_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0140",
+    "nombre": "Anafe Eléctrico Doble",
+    "descripcion": "",
+    "precio": "5 meses de $13.000",
+    "imagen": "img/1787934643892_whatsapp_image_2026_08_28_at_1_02_20_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0141",
+    "nombre": "Set de contenedores ×5",
+    "descripcion": "",
+    "precio": "$18.000",
+    "imagen": "img/1787934683220_whatsapp_image_2026_08_28_at_1_02_20_pm__1_.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0142",
+    "nombre": "CAFETERA ELECTRICA ORYX KICHEN 650W",
+    "descripcion": "JARRA DE VIDRIO TEMPLADO - DISPOSITIVO ANTIGOTEO - PLACA PARA MANTENER CAFE CALIENTE - DEPOSITO DE AGUA GRADUADO",
+    "precio": "3 meses de $15.000",
+    "imagen": "img/1787934816314_whatsapp_image_2026_08_28_at_1_02_21_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0143",
+    "nombre": "CAFETERA ESPRESSO DINAX",
+    "descripcion": "⚡ 1000W de potencia\n🔥 3,5 BAR de presión\n⏱️ 4 tazas de espresso listas en 2-3 minutos\n🥛 Cappuccino o Latte en 3-4 minutos\n✨Diseño compacto y práctico",
+    "precio": "6 meses de $30.000",
+    "imagen": "img/1787934855347_whatsapp_image_2026_08_28_at_1_02_22_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0144",
+    "nombre": "CAFETERA WINCO CÁPSULA",
+    "descripcion": "✅ Bomba de 20 Bar\n✅ Selección espresso o lungo\n✅ Tanque extraíble de 0,9L",
+    "precio": "6 meses de $43.000",
+    "imagen": "img/1787934908402_whatsapp_image_2026_08_28_at_1_02_22_pm__1_.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0145",
+    "nombre": "YOGURTERA ELÉCTRICA SUONO",
+    "descripcion": "Capacidad total de 720 ml\nIncluye 4 vasos de 180 ml\nTamaño compacto y práctico\n✅ Ideal para yogures naturales, frutales o personalizados a tu gusto",
+    "precio": "5 meses de $17.000",
+    "imagen": "img/1787934952310_whatsapp_image_2026_08_28_at_1_02_22_pm__2_.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0146",
+    "nombre": "MAQUINA DE DONAS 3 EN 1",
+    "descripcion": "Fácil de operar, antiadherente, calentamiento rápido, 600W",
+    "precio": "6 meses de $22.000",
+    "imagen": "img/1787935028964_whatsapp_image_2026_08_28_at_1_02_24_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
   }
 ]
