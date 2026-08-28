@@ -878,5 +878,21 @@
     "precio": "6 meses de $26.000",
     "imagen": "img/1787933445347_whatsapp_image_2026_08_28_at_1_02_06_pm.jpeg",
     "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0122",
+    "nombre": "PAVA ELÉCTRICA ATMA,🔥  FILTRO DE DOBLE ACCIÓN",
+    "descripcion": "Pava atma es reconocida por su combinación de eficiencia, diseño moderno, control de temperatura y durabilidad",
+    "precio": "6 meses de $16.000",
+    "imagen": "img/1787933565837_whatsapp_image_2026_08_28_at_1_02_06_pm__1_.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0123",
+    "nombre": "Pava Eléctrica Philco Negra 1.7lts",
+    "descripcion": "",
+    "precio": "6 meses de $16.000",
+    "imagen": "img/1787933604809_whatsapp_image_2026_08_28_at_1_02_06_pm__2_.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
   }
 ]
