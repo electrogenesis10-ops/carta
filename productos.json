@@ -1078,5 +1078,21 @@
     "precio": "6 meses de $22.000",
     "imagen": "img/1787935028964_whatsapp_image_2026_08_28_at_1_02_24_pm.jpeg",
     "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0147",
+    "nombre": "SOMMIER 2 1/2",
+    "descripcion": "3 MESES DE $214.000\n6 MESES DE $134.000",
+    "precio": "12 MESES DE $80.000",
+    "imagen": "img/1788203261576_whatsapp_image_2026_08_30_at_11_18_15_pm.jpeg",
+    "categoria": "HABITACIÓN"
+  },
+  {
+    "id": "prod0148",
+    "nombre": "SOMMIER DE 2 PLAZAS ESTELAR",
+    "descripcion": "INCLUYE 2 ALMOHADAS",
+    "precio": "12 MESES DE $88.000",
+    "imagen": "img/1788203341150_whatsapp_image_2026_08_30_at_11_42_03_pm.jpeg",
+    "categoria": "HABITACIÓN"
   }
 ]
