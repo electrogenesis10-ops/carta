@@ -736,14 +736,6 @@
     "categoria": "INDUSTRIAL"
   },
   {
-    "id": "prod0104",
-    "nombre": "BATIDORA DE MESA WINCO",
-    "descripcion": "✔️- Bowl de acero inoxidable de 4 litros,\n✔️- 6 velocidades + pulsador\n✔️- Incluye accesorios para batir, mezclar y amasar\n✔️- Base antideslizante y tapa anti salpicaduras",
-    "precio": "8 meses de $35.000",
-    "imagen": "img/1787848548466_whatsapp_image_2026_08_27_at_1_29_18_pm.jpeg",
-    "categoria": "ARTÍCULOS DE COCINA"
-  },
-  {
     "id": "prod0105",
     "nombre": "MALETIN OMAHA",
     "descripcion": "421 PIEZAS.\nSUPER COMPLETO",
@@ -1094,5 +1086,53 @@
     "precio": "12 MESES DE $88.000",
     "imagen": "img/1788203341150_whatsapp_image_2026_08_30_at_11_42_03_pm.jpeg",
     "categoria": "HABITACIÓN"
+  },
+  {
+    "id": "prod0149",
+    "nombre": "JUEGO DE SÁBANAS CASATEX  2800 HILOS",
+    "descripcion": "Incluye 3 piezas:\n* 1 Sábana: 170 x 230\n* 1 Cubre colchón: 110x191 + 30 cm\n* 1 Funda: 51 x 76 cm",
+    "precio": "5 meses de $16.000",
+    "imagen": "img/1788298542465_whatsapp_image_2026_08_28_at_1_02_30_pm__1_.jpeg",
+    "categoria": "HABITACIÓN"
+  },
+  {
+    "id": "prod0150",
+    "nombre": "JUEGO  DE 5 PIEZAS  PARA ÑIÑO",
+    "descripcion": "✓ 1 acolchado exelente\n calidad 😍(190 x 220) \n✓ 1 sábana plana (159 x 220)\n✓ 1 sabana ajustable (99x196x30) \n✓ juego cortina (152 x 213) \n✓ 1 funda (55 x35)",
+    "precio": "6 meses de $25.000",
+    "imagen": "img/1788298654834_whatsapp_image_2026_08_28_at_1_02_31_pm.jpeg",
+    "categoria": "HABITACIÓN"
+  },
+  {
+    "id": "prod0151",
+    "nombre": "JUEGO DE SABANAS DE 3 PIEZAS PARA NIÑOS/AS",
+    "descripcion": "EXCELENTE CALIDAD Y VARIEDAD DE DISEÑOS DE DISNEY. \n🔹  Ideales para decorar la habitación de los niños con sus personajes favoritos .\n🔹 Sábana ajustable \n      Sábana plana \n      Funda de almohada .",
+    "precio": "3 meses de $16.500",
+    "imagen": "img/1788298710436_whatsapp_image_2026_08_28_at_1_02_31_pm__1_.jpeg",
+    "categoria": "HABITACIÓN"
+  },
+  {
+    "id": "prod0152",
+    "nombre": "JUEGO DE SABANAS DE 4 PIEZAS PARA NIÑOS/As",
+    "descripcion": "EXCELENTE Y HERMOSA CALIDAD .GRAN VARIEDAD DE DISEÑOS DE DISNEY",
+    "precio": "4 meses de $13.000",
+    "imagen": "img/1788298796670_whatsapp_image_2026_08_28_at_1_02_32_pm.jpeg",
+    "categoria": "HABITACIÓN"
+  },
+  {
+    "id": "prod0153",
+    "nombre": "TENDER VERTICAL",
+    "descripcion": "Tendedero 3 niveles de pie. Portátil con ruedas. Metal y plástico. Es un accesorio esencial para tu hogar . Capacidad resistente: 40Kg \n Medidas: 170cm alto x 76cm largo x 64 cm ancho APROX",
+    "precio": "4 meses de $13.000",
+    "imagen": "img/1788298846751_whatsapp_image_2026_08_28_at_1_02_32_pm__1_.jpeg",
+    "categoria": "SUPER PROMO!!!🔥"
+  },
+  {
+    "id": "prod0154",
+    "nombre": "TENDER VERTICAL",
+    "descripcion": "Tendedero 3 niveles de pie. Portátil con ruedas. Metal y plástico. Es un accesorio esencial para tu hogar . Capacidad resistente: 40Kg \n Medidas: 170cm alto x 76cm largo x 64 cm ancho APROX",
+    "precio": "4 meses de $13.000",
+    "imagen": "img/1788298881588_whatsapp_image_2026_08_28_at_1_02_32_pm__1_.jpeg",
+    "categoria": "SECARROPAS / LAVAROPAS"
   }
 ]
