@@ -1134,5 +1134,21 @@
     "precio": "4 meses de $13.000",
     "imagen": "img/1788298881588_whatsapp_image_2026_08_28_at_1_02_32_pm__1_.jpeg",
     "categoria": "SECARROPAS / LAVAROPAS"
+  },
+  {
+    "id": "prod0155",
+    "nombre": "Zapatero",
+    "descripcion": "6 niveles",
+    "precio": "5 meses de $16.000",
+    "imagen": "img/1788298982372_whatsapp_image_2026_08_28_at_1_02_33_pm.jpeg",
+    "categoria": "HABITACIÓN"
+  },
+  {
+    "id": "prod0156",
+    "nombre": "TERMOTANQUES ELÉCTRICOS Universal 60 Lts",
+    "descripcion": "➡️ Tanque de acero enlozado . \n➡️ Diseñado para instalarse de PIE O COLGADOS. \n➡️ Conexión SUPERIOR .\n➡️ Incluyen válvula de seguridad para sobrepresión y limitador térmico",
+    "precio": "10 meses de $59.000",
+    "imagen": "img/1788299088596_whatsapp_image_2026_08_28_at_1_02_34_pm.jpeg",
+    "categoria": "TERMOTANQUES"
   }
 ]
