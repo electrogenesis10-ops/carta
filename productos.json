@@ -1150,5 +1150,45 @@
     "precio": "10 meses de $59.000",
     "imagen": "img/1788299088596_whatsapp_image_2026_08_28_at_1_02_34_pm.jpeg",
     "categoria": "TERMOTANQUES"
+  },
+  {
+    "id": "prod0157",
+    "nombre": "TERMOTANQUES ELÉCTRICOS  Universal 90Lts",
+    "descripcion": "➡️ Tanque de acero enlozado . \n➡️ Diseñado para instalarse de PIE O COLGADOS. \n➡️ Conexión SUPERIOR .\n➡️ Incluyen válvula de seguridad para sobrepresión y limitador térmico",
+    "precio": "10 meses de $65.000",
+    "imagen": "img/1788299216143_whatsapp_image_2026_08_28_at_1_02_34_pm.jpeg",
+    "categoria": "TERMOTANQUES"
+  },
+  {
+    "id": "prod0158",
+    "nombre": "Termotanque Milenium 60 L",
+    "descripcion": "Termotanque eléctrico de 60 litros, es una solución eficiente y confíable para agua caliente en hogares pequeños o medianos . Carga Superior y alta eficiencia energética",
+    "precio": "10 meses de $52.000",
+    "imagen": "img/1788299312109_whatsapp_image_2026_08_28_at_1_02_34_pm__1_.jpeg",
+    "categoria": "TERMOTANQUES"
+  },
+  {
+    "id": "prod0159",
+    "nombre": "FREIDORA DE AIRE DOBLE ORYX",
+    "descripcion": "",
+    "precio": "10 meses de $50.000",
+    "imagen": "img/1788299341249_whatsapp_image_2026_08_28_at_1_02_34_pm__2_.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0160",
+    "nombre": "HORNO MAGICLICK 100L",
+    "descripcion": "Potencia y capacidad para cocinar todo en un solo equipo \n- Convección para cocción pareja\n- 3 funciones: cocina, hornea y gratina\n- 2800W de potencia, Luz interior\n- Incluye bandejas y accesorios",
+    "precio": "9 meses de $65.000",
+    "imagen": "img/1788299556334_whatsapp_image_2026_08_28_at_1_02_35_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0161",
+    "nombre": "HORNO LÜSQTOFF 52L",
+    "descripcion": "Potencia de 2000W\nTemperatura regulable de 100°C a 250°C\nTemporizador de hasta 60 minutos\nDistintas funciones de cocció",
+    "precio": "6 meses de $65.000",
+    "imagen": "img/1788299616672_whatsapp_image_2026_08_28_at_1_02_36_pm.jpeg",
+    "categoria": "ARTÍCULOS DE COCINA"
   }
 ]
