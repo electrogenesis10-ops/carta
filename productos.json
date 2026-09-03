@@ -1350,5 +1350,13 @@
     "precio": "10 meses de $78.000",
     "imagen": "img/1788470482491_whatsapp_image_2026_08_24_at_12_43_46_pm.jpeg",
     "categoria": "PELUQUERIA"
+  },
+  {
+    "id": "prod0184",
+    "nombre": "MINI CEPILLO SECADOR GAMA",
+    "descripcion": "CEPILLO ALISADOR QUE COMBINA TECNOLOGÍA CERÁMICA E IÓNICA PARA ALISAR TU CABELLO DE MANERA EFICIENTE. REDUCIENDO EL FRIZZ Y APORTANDO BRILLO",
+    "precio": "5 meses de $16.500",
+    "imagen": "img/1788470859705_whatsapp_image_2026_08_24_at_12_43_46_pm__2_.jpeg",
+    "categoria": "PELUQUERIA"
   }
 ]
