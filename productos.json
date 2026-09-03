@@ -1326,5 +1326,29 @@
     "precio": "12 meses de $113.00",
     "imagen": "img/1788470055458_whatsapp_image_2026_08_24_at_1_14_38_pm__1_.jpeg",
     "categoria": "ARTÍCULOS DE COCINA"
+  },
+  {
+    "id": "prod0181",
+    "nombre": "Heladera exhibidora vitrina horizontal 1.70 con bajada",
+    "descripcion": "",
+    "precio": "18 meses de $305.000",
+    "imagen": "img/1788470169790_whatsapp_image_2026_08_24_at_1_14_38_pm__2_.jpeg",
+    "categoria": "HELADERAS"
+  },
+  {
+    "id": "prod0182",
+    "nombre": "PLANCHITA PROFESIONAL BABYLISS PRO NANO TITANIUM",
+    "descripcion": "- Es apta para cabello húmedo o seco.\n- Placas de Nano Titanium\n- Temperatura mínima:150°C\n-  Temperatura máxima:230°C",
+    "precio": "8 meses de $66.000",
+    "imagen": "img/1788470305125_whatsapp_image_2026_08_24_at_12_43_46_pm__1_.jpeg",
+    "categoria": "PELUQUERIA"
+  },
+  {
+    "id": "prod0183",
+    "nombre": "PLANCHITA BABY LISS PRO*",
+    "descripcion": "VOLTAJE: 220V \n •POSEE PLACAS DE TITANIO \n •ALCANZA 240°C DE TEMPERATURA MÁXIMA Y 150°C DE TEMPERATURA MINIMA. \n •INCLUYE 5 NIVELES \n •PANTALLA DIGITAL \n •PLANCHA IÓNICA \n •APAGADO AUTOMÁTICO \n •FUNCIONES: BLOQUEO DE TEMPERATURA",
+    "precio": "10 meses de $78.000",
+    "imagen": "img/1788470482491_whatsapp_image_2026_08_24_at_12_43_46_pm.jpeg",
+    "categoria": "PELUQUERIA"
   }
 ]
