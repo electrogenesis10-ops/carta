@@ -1358,5 +1358,21 @@
     "precio": "5 meses de $16.500",
     "imagen": "img/1788470859705_whatsapp_image_2026_08_24_at_12_43_46_pm__2_.jpeg",
     "categoria": "PELUQUERIA"
+  },
+  {
+    "id": "prod0185",
+    "nombre": "CEPILLO SECADOR DIGITAL GAMA CEPILLO GAMA",
+    "descripcion": "CEPILLO ELÉCTRICO DISEÑADO PARA ALISAR EL CABELLO DE MANERA RÁPIDA Y PROFESIONAL . COMBINANDO TECNOLOGÍA AVANZADA , CONTROL DIGITAL DE TEMPERATURA Y CARACTERÍSTICAS ANTI- FRIZZ.",
+    "precio": "6 meses de $17.000",
+    "imagen": "img/1788470947006_whatsapp_image_2026_08_24_at_12_43_46_pm__3_.jpeg",
+    "categoria": "PELUQUERIA"
+  },
+  {
+    "id": "prod0186",
+    "nombre": "RIZADOR DE PELO CERÁMICO DINAX",
+    "descripcion": "Ideal para lograr ondas definidas y duraderas\n🌡️ Control inteligente de temperatura\n⚡ 45 W de potencia\nPerfecto para uso diario o profesional",
+    "precio": "4 meses de $12.800",
+    "imagen": "img/1788471005532_whatsapp_image_2026_08_24_at_12_43_46_pm__4_.jpeg",
+    "categoria": "PELUQUERIA"
   }
 ]
