@@ -248,58 +248,56 @@
             top: 12px;
             left: 12px;
             background: rgba(15, 23, 42, 0.82);
-            backdrop-filter: blur(8px);
-            border: 1px solid rgba(56, 189, 248, 0.3);
             color: var(--primary-color);
             font-size: 0.72rem;
             font-weight: 700;
-            padding: 4px 10px;
-            border-radius: 999px;
-            letter-spacing: 0.4px;
+            padding: 5px 12px;
+            border-radius: 20px;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            letter-spacing: 0.5px;
             text-transform: uppercase;
+            backdrop-filter: blur(6px);
             z-index: 2;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-            pointer-events: none;
-            max-width: 75%;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
         }
 
         .cat-badge.promo {
-            background: linear-gradient(135deg, rgba(239, 68, 68, 0.9), rgba(249, 115, 22, 0.9));
-            border-color: rgba(254, 240, 138, 0.6);
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.9), rgba(185, 28, 28, 0.9));
             color: #fff;
-            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+            border-color: rgba(252, 165, 165, 0.4);
+            animation: pulse-badge 2s infinite ease-in-out;
         }
 
-        /* Botón de ampliar en la esquina de la foto */
+        @keyframes pulse-badge {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.04); }
+        }
+
         .zoom-badge {
             position: absolute;
             top: 12px;
             right: 12px;
-            background: rgba(15, 23, 42, 0.75);
-            backdrop-filter: blur(6px);
-            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: rgba(15, 23, 42, 0.65);
             color: #fff;
-            width: 32px;
-            height: 32px;
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 0.85rem;
+            backdrop-filter: blur(6px);
             opacity: 0;
-            transform: scale(0.8);
-            transition: all 0.25s ease;
+            transition: all 0.3s ease;
             z-index: 2;
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .item:hover .zoom-badge {
             opacity: 1;
-            transform: scale(1);
+            transform: scale(1.05);
         }
 
+        /* Información de la Tarjeta */
         .item-info {
             padding: 18px 20px 20px 20px;
             display: flex;
@@ -312,65 +310,60 @@
             font-size: 1.15rem;
             font-weight: 700;
             margin: 0 0 8px 0;
-            color: var(--text-color);
+            color: #f8fafc;
             line-height: 1.35;
         }
 
         .item-desc {
-            font-size: 0.85rem;
             color: var(--text-muted);
-            margin: 0 0 16px 0;
+            font-size: 0.85rem;
             line-height: 1.5;
+            margin: 0 0 16px 0;
+            white-space: pre-line;
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
-            min-height: 3.8em;
-            white-space: pre-line;
+            text-overflow: ellipsis;
         }
 
         .item-footer {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 10px;
+            padding-top: 14px;
+            border-top: 1px solid rgba(255, 255, 255, 0.07);
             margin-top: auto;
-            padding-top: 12px;
-            border-top: 1px solid rgba(255, 255, 255, 0.06);
-            flex-wrap: wrap;
+            gap: 10px;
         }
 
         .price {
-            font-size: 1.15rem;
+            color: #38bdf8;
             font-weight: 800;
-            color: var(--primary-color);
-            letter-spacing: -0.3px;
-            flex: 1;
-            min-width: 140px;
+            font-size: 1.2rem;
+            font-family: 'Outfit', sans-serif;
+            letter-spacing: -0.5px;
         }
 
         .btn-card-whatsapp {
-            background: #25d366;
+            background: linear-gradient(135deg, #25D366, #128C7E);
             color: white;
-            border: none;
-            border-radius: 10px;
-            padding: 8px 12px;
-            font-size: 0.85rem;
-            font-weight: 600;
             text-decoration: none;
+            padding: 9px 16px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 0.82rem;
             display: inline-flex;
             align-items: center;
-            gap: 5px;
-            transition: all 0.25s ease;
-            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.25);
+            gap: 6px;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(37, 211, 102, 0.3);
             flex-shrink: 0;
         }
 
         .btn-card-whatsapp:hover {
-            background: #20ba59;
             transform: translateY(-2px);
-            box-shadow: 0 6px 14px rgba(37, 211, 102, 0.4);
-            color: white;
+            box-shadow: 0 6px 16px rgba(37, 211, 102, 0.45);
         }
 
         /* ================= LIGHTBOX / MODAL ================= */
@@ -380,81 +373,61 @@
             left: 0;
             width: 100vw;
             height: 100vh;
-            background: rgba(10, 15, 29, 0.85);
+            background: rgba(15, 23, 42, 0.85);
             backdrop-filter: blur(12px);
-            z-index: 6000;
-            display: flex;
-            align-items: center;
+            display: none;
             justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            opacity: 0;
+            transition: opacity 0.35s ease;
             padding: 20px;
             box-sizing: border-box;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.3s ease;
         }
 
         .modal-overlay.active {
+            display: flex;
             opacity: 1;
-            pointer-events: auto;
         }
 
         .modal-card {
             background: #1e293b;
-            border: 1px solid rgba(255, 255, 255, 0.12);
             border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
             max-width: 650px;
             width: 100%;
             max-height: 90vh;
             overflow-y: auto;
             position: relative;
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6);
             display: flex;
             flex-direction: column;
             transform: scale(0.92);
-            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            transition: transform 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            text-align: left;
         }
 
         .modal-overlay.active .modal-card {
             transform: scale(1);
         }
 
-        .modal-img-wrapper {
-            background: radial-gradient(circle at center, #1e293b 0%, #0b1120 100%);
-            padding: 24px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 280px;
-            max-height: 380px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-            position: relative;
-        }
-
-        .modal-img-wrapper img {
-            max-width: 100%;
-            max-height: 340px;
-            object-fit: contain;
-            border-radius: 12px;
-            filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.5));
-        }
-
         .modal-close-btn {
             position: absolute;
             top: 15px;
             right: 15px;
-            background: rgba(15, 23, 42, 0.85);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            color: #fff;
             width: 38px;
             height: 38px;
             border-radius: 50%;
+            background: rgba(15, 23, 42, 0.75);
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            font-size: 1.2rem;
+            cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            cursor: pointer;
-            font-size: 1.1rem;
-            transition: all 0.2s ease;
             z-index: 10;
+            transition: all 0.2s ease;
         }
 
         .modal-close-btn:hover {
@@ -462,140 +435,156 @@
             transform: rotate(90deg);
         }
 
+        .modal-img-wrapper {
+            width: 100%;
+            height: 360px;
+            background: radial-gradient(circle at center, #27354f 0%, #0b1222 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .modal-img-wrapper img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.6));
+        }
+
         .modal-body {
-            padding: 24px;
-            text-align: left;
+            padding: 24px 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
         }
 
         .modal-title {
-            font-family: 'Outfit', sans-serif;
             font-size: 1.5rem;
-            font-weight: 800;
-            margin: 0 0 10px 0;
+            font-weight: 700;
             color: #fff;
+            margin: 0;
+            font-family: 'Outfit', sans-serif;
         }
 
         .modal-desc {
-            font-size: 0.95rem;
             color: var(--text-muted);
+            font-size: 0.95rem;
             line-height: 1.6;
-            margin: 0 0 20px 0;
+            margin: 0;
             white-space: pre-line;
         }
 
         .modal-footer {
             display: flex;
-            flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;
-            gap: 15px;
-            padding-top: 15px;
+            margin-top: 15px;
+            padding-top: 18px;
             border-top: 1px solid rgba(255, 255, 255, 0.08);
+            gap: 15px;
         }
 
         .modal-price {
+            font-family: 'Outfit', sans-serif;
             font-size: 1.6rem;
             font-weight: 800;
             color: var(--primary-color);
         }
 
         .modal-whatsapp-btn {
-            background: #25d366;
+            background: linear-gradient(135deg, #25D366, #128C7E);
             color: white;
+            text-decoration: none;
             padding: 12px 24px;
             border-radius: 12px;
-            text-decoration: none;
             font-weight: 700;
-            font-size: 1rem;
+            font-size: 0.95rem;
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            box-shadow: 0 6px 16px rgba(37, 211, 102, 0.35);
-            transition: all 0.25s ease;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.35);
         }
 
         .modal-whatsapp-btn:hover {
-            background: #20ba59;
             transform: translateY(-2px);
-            box-shadow: 0 8px 22px rgba(37, 211, 102, 0.5);
-            color: white;
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
         }
 
         /* ================= BOTON SUBIR ================= */
         #btnUp {
+            display: none;
             position: fixed;
-            bottom: 25px;
-            right: 25px;
+            bottom: 30px;
+            right: 30px;
             background: var(--accent-color);
             color: white;
             border: none;
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
-            width: 45px;
-            height: 45px;
-            display: none;
+            font-size: 1.3rem;
             cursor: pointer;
-            z-index: 1000;
-            font-size: 1.2rem;
             box-shadow: var(--shadow-md);
-            transition: all 0.2s ease;
+            transition: all 0.3s ease;
+            z-index: 100;
         }
 
         #btnUp:hover {
-            background: #3b82f6;
             transform: scale(1.1);
+            background: #3b82f6;
         }
 
-        /* ================= ONDA DE SONIDO / VOICE SEARCH ================= */
+        /* ================= VOICE SEARCH OVERLAY ================= */
         .voice-overlay {
             position: fixed;
             top: 0;
             left: 0;
             width: 100vw;
             height: 100vh;
-            background: rgba(15, 23, 42, 0.8);
-            backdrop-filter: blur(10px);
-            z-index: 5000;
-            display: flex;
-            align-items: center;
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(12px);
+            display: none;
             justify-content: center;
+            align-items: center;
+            z-index: 10000;
             opacity: 0;
-            pointer-events: none;
-            transition: all 0.3s ease;
+            transition: opacity 0.3s ease;
         }
 
         .voice-overlay.active {
+            display: flex;
             opacity: 1;
-            pointer-events: auto;
         }
 
         .voice-card {
-            background: rgba(30, 41, 59, 0.9);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: #1e293b;
             border-radius: 24px;
-            padding: 40px;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            padding: 40px 30px;
+            max-width: 400px;
+            width: 88%;
             text-align: center;
-            box-shadow: var(--shadow-md);
-            max-width: 380px;
-            width: 90%;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 30px rgba(56, 189, 248, 0.15);
             display: flex;
             flex-direction: column;
             align-items: center;
-            transform: scale(0.9);
-            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-
-        .voice-overlay.active .voice-card {
-            transform: scale(1);
         }
 
         .voice-icon-wrapper {
             position: relative;
-            width: 80px;
-            height: 80px;
-            margin-bottom: 20px;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-color), #1d4ed8);
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-bottom: 20px;
+            box-shadow: 0 0 25px rgba(37, 99, 235, 0.5);
         }
 
         .voice-mic-icon {
@@ -658,30 +647,14 @@
             animation: bounce-wave 1.2s infinite ease-in-out;
         }
 
-        .sound-wave span:nth-child(1) {
-            animation-delay: 0.1s;
-        }
-
-        .sound-wave span:nth-child(2) {
-            animation-delay: 0.3s;
-        }
-
-        .sound-wave span:nth-child(3) {
-            animation-delay: 0.6s;
-        }
-
-        .sound-wave span:nth-child(4) {
-            animation-delay: 0.2s;
-        }
-
-        .sound-wave span:nth-child(5) {
-            animation-delay: 0.4s;
-        }
+        .sound-wave span:nth-child(1) { animation-delay: 0.1s; }
+        .sound-wave span:nth-child(2) { animation-delay: 0.3s; }
+        .sound-wave span:nth-child(3) { animation-delay: 0.6s; }
+        .sound-wave span:nth-child(4) { animation-delay: 0.2s; }
+        .sound-wave span:nth-child(5) { animation-delay: 0.4s; }
 
         @keyframes bounce-wave {
-
-            0%,
-            100% {
+            0%, 100% {
                 height: 10px;
                 background: var(--primary-color);
             }
@@ -822,7 +795,7 @@
 
     <header>
         <img src="img/749315276_1038506095766615_464477358869599250_n.jpg" alt="logo"
-            onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/electrogenesis10-ops/carta/main/img/749315276_1038506095766615_464477358869599250_n.jpg'">
+            onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/electrogenesis10-ops/carta@main/img/749315276_1038506095766615_464477358869599250_n.jpg'">
     </header>
 
     <div class="banner" id="banner-text">¡Bienvenidos a Electrodomésticos Génesis!</div>
@@ -858,6 +831,7 @@
             const USER = 'electrogenesis10-ops';
             const REPO = 'carta';
             const WA_PHONE = '5491169100558';
+            const IS_VENDOR = false;
 
             const categoryContainer = document.getElementById('category-buttons');
             const productList = document.getElementById('product-list');
@@ -877,7 +851,7 @@
 
             const PLACEHOLDER_SVG = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200' fill='%231e293b'><rect width='300' height='200' fill='%231e293b'/><text x='50%' y='45%' dominant-baseline='middle' text-anchor='middle' fill='%2338bdf8' font-family='sans-serif' font-weight='bold' font-size='16'>⚡ Electrodomésticos</text><text x='50%' y='65%' dominant-baseline='middle' text-anchor='middle' fill='%2394a3b8' font-family='sans-serif' font-size='13'>Génesis</text></svg>";
 
-            // --- MULTI-ORIGIN RESILIENT IMAGE URLS ---
+            // --- MULTI-ORIGIN RESILIENT IMAGE URLS (CDN + Mirrors + Fallbacks) ---
             function getCleanPath(path) {
                 if (!path) return '';
                 return path.replace(/^(\.\/|\/)/, '');
@@ -892,8 +866,8 @@
                 const clean = getCleanPath(path);
                 return [
                     `https://cdn.jsdelivr.net/gh/${USER}/${REPO}@main/${clean}`,
-                    `https://raw.githubusercontent.com/${USER}/${REPO}/main/${clean}`,
                     `https://${USER}.github.io/${REPO}/${clean}`,
+                    `https://raw.githubusercontent.com/${USER}/${REPO}/main/${clean}`,
                     `./${clean}`
                 ];
             }
@@ -906,7 +880,7 @@
                     img.setAttribute('data-fail-step', step);
                     setTimeout(() => {
                         img.src = sources[step];
-                    }, 350);
+                    }, 250);
                 } else {
                     img.onerror = null;
                     img.src = PLACEHOLDER_SVG;
@@ -920,13 +894,13 @@
                 if (container) container.classList.remove('img-loading');
             };
 
-            // --- CARGA DE PRODUCTOS ---
+            // --- CARGA DE PRODUCTOS CON MÚLTIPLES FUENTES ---
             async function load() {
                 try {
                     let res;
                     const sources = [
-                        `https://raw.githubusercontent.com/${USER}/${REPO}/main/productos.json`,
                         `https://cdn.jsdelivr.net/gh/${USER}/${REPO}@main/productos.json`,
+                        `https://raw.githubusercontent.com/${USER}/${REPO}/main/productos.json`,
                         'productos.json'
                     ];
 
@@ -935,7 +909,7 @@
                             res = await fetch(url, { cache: "no-store" });
                             if (res && res.ok) break;
                         } catch (err) {
-                            // try next source
+                            // intentar siguiente fuente
                         }
                     }
 
@@ -973,12 +947,16 @@
                 const waText = encodeURIComponent(`Hola Génesis Electrodomésticos, quiero consultar por: ${p.nombre} (${priceFormatted})`);
                 const waLink = `https://wa.me/${WA_PHONE}?text=${waText}`;
 
+                const whatsappBtnHtml = !IS_VENDOR ? `
+                    <a href="${waLink}" target="_blank" class="btn-card-whatsapp" title="Consultar por WhatsApp">📲 Consultar</a>
+                ` : '';
+
                 return `
                 <div class="item">
                     <div class="item-img-container img-loading" onclick="abrirModal('${p.id}')" title="Clic para ampliar foto">
                         ${p.categoria ? `<span class="cat-badge ${isPromo ? 'promo' : ''}">${p.categoria}</span>` : ''}
                         <span class="zoom-badge" title="Ampliar">🔍</span>
-                        <img src="${primarySrc}" alt="${p.nombre}" loading="lazy" 
+                        <img src="${primarySrc}" alt="${p.nombre}" loading="lazy" decoding="async"
                              onload="handleImgSuccess(this)" 
                              onerror="handleImgError(this, '${(p.imagen || '').replace(/'/g, "\\'")}')">
                     </div>
@@ -989,7 +967,7 @@
                         </div>
                         <div class="item-footer">
                             <span class="price">${priceFormatted}</span>
-                            <a href="${waLink}" target="_blank" class="btn-card-whatsapp" title="Consultar por WhatsApp">📲 Consultar</a>
+                            ${whatsappBtnHtml}
                         </div>
                     </div>
                 </div>`;
@@ -1109,8 +1087,10 @@
                 const priceFormatted = rawPrice.includes('$') ? rawPrice : '$' + rawPrice;
                 modalPrice.innerText = priceFormatted;
 
-                const waText = encodeURIComponent(`Hola Génesis Electrodomésticos, me interesa el producto: ${p.nombre} - ${priceFormatted}`);
-                modalWA.href = `https://wa.me/${WA_PHONE}?text=${waText}`;
+                if (modalWA) {
+                    const waText = encodeURIComponent(`Hola Génesis Electrodomésticos, me interesa el producto: ${p.nombre} - ${priceFormatted}`);
+                    modalWA.href = `https://wa.me/${WA_PHONE}?text=${waText}`;
+                }
 
                 modal.classList.add('active');
                 document.body.style.overflow = 'hidden';
@@ -1196,4 +1176,3 @@
 </body>
 
 </html>
-
