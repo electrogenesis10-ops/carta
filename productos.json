@@ -284,7 +284,7 @@
     "nombre": "LAVARROPAS ENOVA CARGA SUPERIOR 6KG",
     "descripcion": "Automatico 6kg\nTambor de acero inoxidable\n8 programas de lavado\nCentrifugado de hasta 700 RPM",
     "precio": "10 meses de $100.000",
-    "imagen": "img/1787759592908_whatsapp_image_2026_08_24_at_1_05_32_pm__2_.jpeg",
+    "imagen": "img/1789415770495_whatsapp_image_2026_09_12_at_10_45_45_am__1_.jpeg",
     "categoria": "SECARROPAS / LAVAROPAS"
   },
   {
@@ -364,7 +364,7 @@
     "nombre": "HELADERA PHILCO CÍCLICA 199L",
     "descripcion": "Freezer 39L, Refrigerador 160L\nPuerta reversible y Luz LED interior\nEstantes regulables\nClase climática n-st\n📐 55cm ancho x 143cm alto x55prof",
     "precio": "12 meses de $100.000",
-    "imagen": "img/1787763114890_whatsapp_image_2026_08_24_at_1_00_53_pm.jpeg",
+    "imagen": "img/1789415892366_whatsapp_image_2026_09_12_at_10_44_57_am.jpeg",
     "categoria": "HELADERAS"
   },
   {
@@ -1374,5 +1374,13 @@
     "precio": "4 meses de $12.800",
     "imagen": "img/1788471005532_whatsapp_image_2026_08_24_at_12_43_46_pm__4_.jpeg",
     "categoria": "PELUQUERIA"
+  },
+  {
+    "id": "prod0187",
+    "nombre": "AIRE  ACONDICIONADO PORTÁTIL PHILCO",
+    "descripcion": "💎 CAPACIDAD 2650W \n❄️ FRIO - CALOR \n📎 REFRIGERANTE ECOLÓGICO \n♨️ FILTROS LAVABLES \n💧 NO REQUIERE DRENAJE \n 🕹️ CONTROL REMOTO MULTIFUNCIÓN",
+    "precio": "12 meses de $117.000",
+    "imagen": "img/1789416307330_whatsapp_image_2026_09_12_at_10_40_47_am.jpeg",
+    "categoria": "AIRE ACONDICIONADO"
   }
 ]
