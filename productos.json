@@ -1446,5 +1446,85 @@
     "precio": "6  meses de $20.000",
     "imagen": "img/1789418674920_whatsapp_image_2026_09_09_at_12_36_13_am__8_.jpeg",
     "categoria": "ARTÍCULOS DE BELLEZA"
+  },
+  {
+    "id": "prod0196",
+    "nombre": "PLANCHITA GAMA AQUAPLANCHITA GAMA AQUA",
+    "descripcion": "Tecnología exclusiva permite aplicar tratamientos capilares líquidos directamente sobre el cabello, potenciando la hidratación y el brillo Temperatura regulable hasta 230 °C 🌡️\n💆‍♀️ Patines flotantes que se adaptan perfectamente para un alisado parejo, suave y sin frizz",
+    "precio": "6 meses de $25.000",
+    "imagen": "img/1789419722949_whatsapp_image_2026_09_09_at_12_36_13_am__9_.jpeg",
+    "categoria": "ARTÍCULOS DE BELLEZA"
+  },
+  {
+    "id": "prod0197",
+    "nombre": "PLANCHITA GAMA LINO",
+    "descripcion": "Temperatura hasta 230 °C / 450 °F\nPlacas largas de 25 x 120 mm (Long Plates) con infusión de aceite de lino\nNutre, protege y repara el cabello gracias a su contenido en omega 3 y micronutrientes\nMejora las puntas abiertas, aporta brillo y suavidad\n6 niveles de temperatura seleccionables:\n130 °C / 150 °C / 170 °C / 190 °C / 210 °C / 230 °C\nSuspension System: patines flotantes adaptables a giros e inclinaciones\nCable rotativo de 2,5 metros Diseño italiano profesional",
+    "precio": "7 meses de $22.000",
+    "imagen": "img/1789419850569_whatsapp_image_2026_09_09_at_12_36_13_am__10_.jpeg",
+    "categoria": "ARTÍCULOS DE BELLEZA"
+  },
+  {
+    "id": "prod0198",
+    "nombre": "AFEITADORA G.A.M.A",
+    "descripcion": "",
+    "precio": "5 meses de $16.000",
+    "imagen": "img/1789419904526_whatsapp_image_2026_09_09_at_12_36_13_am__11_.jpeg",
+    "categoria": "ARTÍCULOS DE BELLEZA"
+  },
+  {
+    "id": "prod0199",
+    "nombre": "DEPILADORA GAMA OASIS GOLD PREMIUM",
+    "descripcion": "",
+    "precio": "6 meses de $21.200",
+    "imagen": "img/1789419943020_whatsapp_image_2026_09_09_at_12_36_13_am__12_.jpeg",
+    "categoria": "ARTÍCULOS DE BELLEZA"
+  },
+  {
+    "id": "prod0200",
+    "nombre": "SECADOR DE PELO BREEZE GAMMA",
+    "descripcion": "",
+    "precio": "6 meses de $19.000",
+    "imagen": "img/1789420068252_whatsapp_image_2026_09_09_at_12_36_13_am__13_.jpeg",
+    "categoria": "ARTÍCULOS DE BELLEZA"
+  },
+  {
+    "id": "prod0201",
+    "nombre": "COMBO GAMA CHIA Planchita + Secador",
+    "descripcion": "🌿 Infusión de aceite de chía: nutre y da brillo ✨\n💇‍♀️ Alisado suave + secado potente profesional",
+    "precio": "6 meses de $45.000",
+    "imagen": "img/1789420203677_whatsapp_image_2026_09_09_at_12_36_13_am__14_.jpeg",
+    "categoria": "COMBOS !!!🔥"
+  },
+  {
+    "id": "prod0202",
+    "nombre": "COMBO GAMA CHIA Planchita + Secad",
+    "descripcion": "🌿 Infusión de aceite de chía: nutre y da brillo ✨\n💇‍♀️ Alisado suave + secado potente profesional",
+    "precio": "6 meses de $45.000",
+    "imagen": "img/1789420246812_whatsapp_image_2026_09_09_at_12_36_13_am__14_.jpeg",
+    "categoria": "ARTÍCULOS DE BELLEZA"
+  },
+  {
+    "id": "prod0203",
+    "nombre": "COMBO GAMA MATCHA Protección & Fortalecimiento",
+    "descripcion": "💥 Planchita + Secador con infusión de té matcha, rico en antioxidante \n🌿 Protege la fibra capilar, fortalece el cabello y aporta brillo natural\n💇‍♀️ Perfecto para quienes buscan un acabado profesional cuidando la salud del pelo",
+    "precio": "6 meses de $45.000",
+    "imagen": "img/1789420317730_whatsapp_image_2026_09_09_at_12_36_13_am__15_.jpeg",
+    "categoria": "ARTÍCULOS DE BELLEZA"
+  },
+  {
+    "id": "prod0204",
+    "nombre": "COMBO GAMA MATCHA Protección & Fortalecimiento",
+    "descripcion": "💥 Planchita + Secador con infusión de té matcha, rico en antioxidantes\n🌿 Protege la fibra capilar, fortalece el cabello y aporta brillo natural\n💇‍♀️ Perfecto para quienes buscan un acabado profesional cuidando la salud del pelo",
+    "precio": "6 meses de $45.000",
+    "imagen": "img/1789420410706_whatsapp_image_2026_09_09_at_12_36_13_am__15_.jpeg",
+    "categoria": "COMBOS !!!🔥"
+  },
+  {
+    "id": "prod0205",
+    "nombre": "COMBO GAMA COCONOUT  Hidratación & Brillo Natural",
+    "descripcion": "Planchita + Secador con infusión de aceite de coco, ideal para cabellos secos o dañados\n✨ Hidrata profundamente, aporta suavidad y un brillo espectacular\n💇‍♀️ Alisado suave sin frizz + secado potente con acabado profesional",
+    "precio": "6 meses de $45.000",
+    "imagen": "img/1789420634145_whatsapp_image_2026_09_09_at_12_36_13_am__19_.jpeg",
+    "categoria": "ARTÍCULOS DE BELLEZA"
   }
 ]
