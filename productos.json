@@ -1422,5 +1422,29 @@
     "precio": "6 meses de $21.000",
     "imagen": "img/1789418342332_whatsapp_image_2026_09_09_at_12_36_13_am__5_.jpeg",
     "categoria": "ARTÍCULOS DE BELLEZA"
+  },
+  {
+    "id": "prod0193",
+    "nombre": "PLANCHITA DE PELO ELEGANCE GOLD",
+    "descripcion": "",
+    "precio": "6  meses de $21.000",
+    "imagen": "img/1789418518849_whatsapp_image_2026_09_09_at_12_36_13_am__6_.jpeg",
+    "categoria": "ARTÍCULOS DE BELLEZA"
+  },
+  {
+    "id": "prod0194",
+    "nombre": "PLANCHITA GAMA BELLA SHINE 230°",
+    "descripcion": "",
+    "precio": "6 meses de $20.000",
+    "imagen": "img/1789418605620_whatsapp_image_2026_09_09_at_12_36_13_am__7_.jpeg",
+    "categoria": "ARTÍCULOS DE BELLEZA"
+  },
+  {
+    "id": "prod0195",
+    "nombre": "PLANCHITA GAMA CHIA ESENCIAL",
+    "descripcion": "",
+    "precio": "6  meses de $20.000",
+    "imagen": "img/1789418674920_whatsapp_image_2026_09_09_at_12_36_13_am__8_.jpeg",
+    "categoria": "ARTÍCULOS DE BELLEZA"
   }
 ]
