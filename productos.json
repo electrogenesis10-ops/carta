@@ -1382,5 +1382,13 @@
     "precio": "12 meses de $117.000",
     "imagen": "img/1789416307330_whatsapp_image_2026_09_12_at_10_40_47_am.jpeg",
     "categoria": "AIRE ACONDICIONADO"
+  },
+  {
+    "id": "prod0188",
+    "nombre": "AIRE ACONDICIONADO NOBLEX 3400W FRIO/CALOR",
+    "descripcion": "- FILTRO LAVABLE\n- MODO DESHUMIDIFICACION\n- FUNCION FEEL\n- SUOER SILENCIOSO\n- CLASE A AHORRO DE ENERGIA\n- BARRIDO DE AIRE AUTOMATICO",
+    "precio": "12 meses de $145.000",
+    "imagen": "img/1789416418063_whatsapp_image_2026_09_12_at_10_40_17_am.jpeg",
+    "categoria": "AIRE ACONDICIONADO"
   }
 ]
