@@ -1390,5 +1390,13 @@
     "precio": "12 meses de $145.000",
     "imagen": "img/1789416418063_whatsapp_image_2026_09_12_at_10_40_17_am.jpeg",
     "categoria": "AIRE ACONDICIONADO"
+  },
+  {
+    "id": "prod0189",
+    "nombre": "HELADERA DREAN 364L BLANCA",
+    "descripcion": "",
+    "precio": "meses de $170.000",
+    "imagen": "img/1789416517306_whatsapp_image_2026_09_12_at_10_39_28_am.jpeg",
+    "categoria": "HELADERAS"
   }
 ]
