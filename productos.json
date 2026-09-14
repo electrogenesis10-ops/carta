@@ -28,7 +28,7 @@
     "nombre": "COCINA MARTIRI",
     "descripcion": "- Horno con visor de vidrio\n- Válvula de seguridad\n- Gas Natural o Envasado\n📏 51 cm x 86 cm x 53 cm prof",
     "precio": "10 MESES DE $68.00\t0",
-    "imagen": "img/1787681870064_whatsapp_image_2026_08_25_at_3_10_52_pm.jpeg",
+    "imagen": "img/1789416738787_whatsapp_image_2026_09_12_at_10_36_38_am.jpeg",
     "categoria": "COCINA"
   },
   {
@@ -828,7 +828,7 @@
     "nombre": "Desmalezadora Profesional Konan 52 CC",
     "descripcion": "( Garantia oficial )",
     "precio": "8 meses de $30.000",
-    "imagen": "img/1787932961644_whatsapp_image_2026_08_28_at_1_00_17_pm.jpeg",
+    "imagen": "img/1789416755443_whatsapp_image_2026_09_11_at_10_34_45_am.jpeg",
     "categoria": "HERRAMIENTAS"
   },
   {
@@ -1164,7 +1164,7 @@
     "nombre": "HORNO MAGICLICK 100L",
     "descripcion": "Potencia y capacidad para cocinar todo en un solo equipo \n- Convección para cocción pareja\n- 3 funciones: cocina, hornea y gratina\n- 2800W de potencia, Luz interior\n- Incluye bandejas y accesorios",
     "precio": "9 meses de $65.000",
-    "imagen": "img/1788299556334_whatsapp_image_2026_08_28_at_1_02_35_pm.jpeg",
+    "imagen": "img/1789416705658_whatsapp_image_2026_09_12_at_10_37_57_am__1_.jpeg",
     "categoria": "ARTÍCULOS DE COCINA"
   },
   {
@@ -1172,7 +1172,7 @@
     "nombre": "HORNO LÜSQTOFF 52L",
     "descripcion": "Potencia de 2000W\nTemperatura regulable de 100°C a 250°C\nTemporizador de hasta 60 minutos\nDistintas funciones de cocció",
     "precio": "6 meses de $65.000",
-    "imagen": "img/1788299616672_whatsapp_image_2026_08_28_at_1_02_36_pm.jpeg",
+    "imagen": "img/1789416677606_whatsapp_image_2026_09_12_at_10_38_07_am.jpeg",
     "categoria": "ARTÍCULOS DE COCINA"
   },
   {
@@ -1398,5 +1398,21 @@
     "precio": "meses de $170.000",
     "imagen": "img/1789416517306_whatsapp_image_2026_09_12_at_10_39_28_am.jpeg",
     "categoria": "HELADERAS"
+  },
+  {
+    "id": "prod0190",
+    "nombre": "MESA PLEGABLE EN L",
+    "descripcion": "",
+    "precio": "4 meses de $24.000",
+    "imagen": "img/1789416871589_whatsapp_image_2026_09_09_at_7_49_00_pm.jpeg",
+    "categoria": "HABITACIÓN"
+  },
+  {
+    "id": "prod0191",
+    "nombre": "CEPILLO MOLDEADOR 5 EN 1",
+    "descripcion": "Todo lo que necesitás para peinarte en un solo equipo. Incluye 5 accesorios intercambiables para secar, alisar, rizar, dar volumen y moldear fácilmente\nIdeal para cambiar de look todos los días sin ir a la peluquería",
+    "precio": "4 meses de $18.000",
+    "imagen": "img/1789417143454_whatsapp_image_2026_09_09_at_12_36_13_am__1_.jpeg",
+    "categoria": "ART. DE BELLEZA"
   }
 ]
